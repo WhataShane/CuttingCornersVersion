@@ -1,0 +1,6320 @@
+{
+	"textures": [
+		{
+			"image": "here.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 508,
+				"h": 254
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "kanto copy_151.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 21,
+						"h": 10
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 21,
+						"h": 10
+					},
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"w": 21,
+						"h": 10
+					}
+				},
+				{
+					"filename": "kanto copy_152.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 21,
+						"h": 10
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 21,
+						"h": 10
+					},
+					"frame": {
+						"x": 21,
+						"y": 0,
+						"w": 21,
+						"h": 10
+					}
+				},
+				{
+					"filename": "kanto copy_104.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 15,
+						"h": 11
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 11
+					},
+					"frame": {
+						"x": 42,
+						"y": 0,
+						"w": 15,
+						"h": 11
+					}
+				},
+				{
+					"filename": "kanto copy_175.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 17,
+						"h": 12
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 17,
+						"h": 12
+					},
+					"frame": {
+						"x": 57,
+						"y": 0,
+						"w": 17,
+						"h": 12
+					}
+				},
+				{
+					"filename": "kanto copy_103.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 15,
+						"h": 12
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 12
+					},
+					"frame": {
+						"x": 74,
+						"y": 0,
+						"w": 15,
+						"h": 12
+					}
+				},
+				{
+					"filename": "kanto copy_176.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 17,
+						"h": 12
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 17,
+						"h": 12
+					},
+					"frame": {
+						"x": 89,
+						"y": 0,
+						"w": 17,
+						"h": 12
+					}
+				},
+				{
+					"filename": "kanto copy_277.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 12
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 12
+					},
+					"frame": {
+						"x": 106,
+						"y": 0,
+						"w": 16,
+						"h": 12
+					}
+				},
+				{
+					"filename": "kanto copy_85.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 23,
+						"h": 12
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 23,
+						"h": 12
+					},
+					"frame": {
+						"x": 122,
+						"y": 0,
+						"w": 23,
+						"h": 12
+					}
+				},
+				{
+					"filename": "kanto copy_90.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 15,
+						"h": 13
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 13
+					},
+					"frame": {
+						"x": 145,
+						"y": 0,
+						"w": 15,
+						"h": 13
+					}
+				},
+				{
+					"filename": "kanto copy_89.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 15,
+						"h": 13
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 13
+					},
+					"frame": {
+						"x": 160,
+						"y": 0,
+						"w": 15,
+						"h": 13
+					}
+				},
+				{
+					"filename": "kanto copy_278.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 13
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 13
+					},
+					"frame": {
+						"x": 175,
+						"y": 0,
+						"w": 16,
+						"h": 13
+					}
+				},
+				{
+					"filename": "kanto copy_294.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 15,
+						"h": 14
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 14
+					},
+					"frame": {
+						"x": 191,
+						"y": 0,
+						"w": 15,
+						"h": 14
+					}
+				},
+				{
+					"filename": "kanto copy_43.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 13,
+						"h": 14
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 13,
+						"h": 14
+					},
+					"frame": {
+						"x": 206,
+						"y": 0,
+						"w": 13,
+						"h": 14
+					}
+				},
+				{
+					"filename": "kanto copy_293.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 15,
+						"h": 14
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 14
+					},
+					"frame": {
+						"x": 219,
+						"y": 0,
+						"w": 15,
+						"h": 14
+					}
+				},
+				{
+					"filename": "kanto copy_34.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 13,
+						"h": 14
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 13,
+						"h": 14
+					},
+					"frame": {
+						"x": 234,
+						"y": 0,
+						"w": 13,
+						"h": 14
+					}
+				},
+				{
+					"filename": "kanto copy_44.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 13,
+						"h": 14
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 13,
+						"h": 14
+					},
+					"frame": {
+						"x": 247,
+						"y": 0,
+						"w": 13,
+						"h": 14
+					}
+				},
+				{
+					"filename": "kanto copy_33.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 13,
+						"h": 14
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 13,
+						"h": 14
+					},
+					"frame": {
+						"x": 260,
+						"y": 0,
+						"w": 13,
+						"h": 14
+					}
+				},
+				{
+					"filename": "kanto copy_209.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 13,
+						"h": 14
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 13,
+						"h": 14
+					},
+					"frame": {
+						"x": 273,
+						"y": 0,
+						"w": 13,
+						"h": 14
+					}
+				},
+				{
+					"filename": "kanto copy_213.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 15,
+						"h": 15
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 15
+					},
+					"frame": {
+						"x": 286,
+						"y": 0,
+						"w": 15,
+						"h": 15
+					}
+				},
+				{
+					"filename": "kanto copy_61.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 14,
+						"h": 15
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 14,
+						"h": 15
+					},
+					"frame": {
+						"x": 301,
+						"y": 0,
+						"w": 14,
+						"h": 15
+					}
+				},
+				{
+					"filename": "kanto copy_62.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 14,
+						"h": 15
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 14,
+						"h": 15
+					},
+					"frame": {
+						"x": 315,
+						"y": 0,
+						"w": 14,
+						"h": 15
+					}
+				},
+				{
+					"filename": "kanto copy_116.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 25,
+						"h": 15
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 25,
+						"h": 15
+					},
+					"frame": {
+						"x": 329,
+						"y": 0,
+						"w": 25,
+						"h": 15
+					}
+				},
+				{
+					"filename": "kanto copy_82.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 15,
+						"h": 15
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 15
+					},
+					"frame": {
+						"x": 354,
+						"y": 0,
+						"w": 15,
+						"h": 15
+					}
+				},
+				{
+					"filename": "kanto copy_123.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 14,
+						"h": 15
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 14,
+						"h": 15
+					},
+					"frame": {
+						"x": 369,
+						"y": 0,
+						"w": 14,
+						"h": 15
+					}
+				},
+				{
+					"filename": "kanto copy_193.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 13,
+						"h": 15
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 13,
+						"h": 15
+					},
+					"frame": {
+						"x": 383,
+						"y": 0,
+						"w": 13,
+						"h": 15
+					}
+				},
+				{
+					"filename": "kanto copy_124.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 14,
+						"h": 15
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 14,
+						"h": 15
+					},
+					"frame": {
+						"x": 396,
+						"y": 0,
+						"w": 14,
+						"h": 15
+					}
+				},
+				{
+					"filename": "kanto copy_210.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 13,
+						"h": 15
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 13,
+						"h": 15
+					},
+					"frame": {
+						"x": 410,
+						"y": 0,
+						"w": 13,
+						"h": 15
+					}
+				},
+				{
+					"filename": "kanto copy_15.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 11,
+						"h": 15
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 11,
+						"h": 15
+					},
+					"frame": {
+						"x": 423,
+						"y": 0,
+						"w": 11,
+						"h": 15
+					}
+				},
+				{
+					"filename": "kanto copy_214.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 15,
+						"h": 15
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 15
+					},
+					"frame": {
+						"x": 434,
+						"y": 0,
+						"w": 15,
+						"h": 15
+					}
+				},
+				{
+					"filename": "kanto copy_16.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 11,
+						"h": 15
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 11,
+						"h": 15
+					},
+					"frame": {
+						"x": 449,
+						"y": 0,
+						"w": 11,
+						"h": 15
+					}
+				},
+				{
+					"filename": "kanto copy_115.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 25,
+						"h": 15
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 25,
+						"h": 15
+					},
+					"frame": {
+						"x": 460,
+						"y": 0,
+						"w": 25,
+						"h": 15
+					}
+				},
+				{
+					"filename": "kanto copy_81.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 15,
+						"h": 15
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 15
+					},
+					"frame": {
+						"x": 485,
+						"y": 0,
+						"w": 15,
+						"h": 15
+					}
+				},
+				{
+					"filename": "kanto copy_21.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 13,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 13,
+						"h": 16
+					},
+					"frame": {
+						"x": 0,
+						"y": 15,
+						"w": 13,
+						"h": 16
+					}
+				},
+				{
+					"filename": "kanto copy_31.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 25,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 25,
+						"h": 16
+					},
+					"frame": {
+						"x": 13,
+						"y": 15,
+						"w": 25,
+						"h": 16
+					}
+				},
+				{
+					"filename": "kanto copy_135.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 13,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 13,
+						"h": 16
+					},
+					"frame": {
+						"x": 38,
+						"y": 15,
+						"w": 13,
+						"h": 16
+					}
+				},
+				{
+					"filename": "kanto copy_136.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 13,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 13,
+						"h": 16
+					},
+					"frame": {
+						"x": 51,
+						"y": 15,
+						"w": 13,
+						"h": 16
+					}
+				},
+				{
+					"filename": "kanto copy_194.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 13,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 13,
+						"h": 16
+					},
+					"frame": {
+						"x": 64,
+						"y": 15,
+						"w": 13,
+						"h": 16
+					}
+				},
+				{
+					"filename": "kanto copy_27.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 11,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 11,
+						"h": 16
+					},
+					"frame": {
+						"x": 77,
+						"y": 15,
+						"w": 11,
+						"h": 16
+					}
+				},
+				{
+					"filename": "kanto copy_246.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 15,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 88,
+						"y": 15,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "kanto copy_200.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 24,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 24,
+						"h": 16
+					},
+					"frame": {
+						"x": 103,
+						"y": 15,
+						"w": 24,
+						"h": 16
+					}
+				},
+				{
+					"filename": "kanto copy_154.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 25,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 25,
+						"h": 16
+					},
+					"frame": {
+						"x": 127,
+						"y": 15,
+						"w": 25,
+						"h": 16
+					}
+				},
+				{
+					"filename": "kanto copy_279.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 17,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 17,
+						"h": 16
+					},
+					"frame": {
+						"x": 152,
+						"y": 15,
+						"w": 17,
+						"h": 16
+					}
+				},
+				{
+					"filename": "kanto copy_153.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 25,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 25,
+						"h": 16
+					},
+					"frame": {
+						"x": 169,
+						"y": 15,
+						"w": 25,
+						"h": 16
+					}
+				},
+				{
+					"filename": "kanto copy_190.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 20,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 20,
+						"h": 16
+					},
+					"frame": {
+						"x": 194,
+						"y": 15,
+						"w": 20,
+						"h": 16
+					}
+				},
+				{
+					"filename": "kanto copy_280.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 17,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 17,
+						"h": 16
+					},
+					"frame": {
+						"x": 214,
+						"y": 15,
+						"w": 17,
+						"h": 16
+					}
+				},
+				{
+					"filename": "kanto copy_142.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 13,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 13,
+						"h": 16
+					},
+					"frame": {
+						"x": 231,
+						"y": 15,
+						"w": 13,
+						"h": 16
+					}
+				},
+				{
+					"filename": "kanto copy_287.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 13,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 13,
+						"h": 16
+					},
+					"frame": {
+						"x": 244,
+						"y": 15,
+						"w": 13,
+						"h": 16
+					}
+				},
+				{
+					"filename": "kanto copy_245.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 15,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 257,
+						"y": 15,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "kanto copy_141.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 13,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 13,
+						"h": 16
+					},
+					"frame": {
+						"x": 272,
+						"y": 15,
+						"w": 13,
+						"h": 16
+					}
+				},
+				{
+					"filename": "kanto copy_67.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 16
+					},
+					"frame": {
+						"x": 285,
+						"y": 15,
+						"w": 16,
+						"h": 16
+					}
+				},
+				{
+					"filename": "kanto copy_01.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 15,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 301,
+						"y": 15,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "kanto copy_58.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 14,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 14,
+						"h": 16
+					},
+					"frame": {
+						"x": 316,
+						"y": 15,
+						"w": 14,
+						"h": 16
+					}
+				},
+				{
+					"filename": "kanto copy_02.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 15,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 330,
+						"y": 15,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "kanto copy_57.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 14,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 14,
+						"h": 16
+					},
+					"frame": {
+						"x": 345,
+						"y": 15,
+						"w": 14,
+						"h": 16
+					}
+				},
+				{
+					"filename": "kanto copy_96.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 17,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 17,
+						"h": 16
+					},
+					"frame": {
+						"x": 359,
+						"y": 15,
+						"w": 17,
+						"h": 16
+					}
+				},
+				{
+					"filename": "kanto copy_09.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 11,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 11,
+						"h": 16
+					},
+					"frame": {
+						"x": 376,
+						"y": 15,
+						"w": 11,
+						"h": 16
+					}
+				},
+				{
+					"filename": "kanto copy_95.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 17,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 17,
+						"h": 16
+					},
+					"frame": {
+						"x": 387,
+						"y": 15,
+						"w": 17,
+						"h": 16
+					}
+				},
+				{
+					"filename": "kanto copy_10.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 11,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 11,
+						"h": 16
+					},
+					"frame": {
+						"x": 404,
+						"y": 15,
+						"w": 11,
+						"h": 16
+					}
+				},
+				{
+					"filename": "kanto copy_74.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 17,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 17,
+						"h": 16
+					},
+					"frame": {
+						"x": 415,
+						"y": 15,
+						"w": 17,
+						"h": 16
+					}
+				},
+				{
+					"filename": "kanto copy_73.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 17,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 17,
+						"h": 16
+					},
+					"frame": {
+						"x": 432,
+						"y": 15,
+						"w": 17,
+						"h": 16
+					}
+				},
+				{
+					"filename": "kanto copy_86.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 17,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 17,
+						"h": 16
+					},
+					"frame": {
+						"x": 449,
+						"y": 15,
+						"w": 17,
+						"h": 16
+					}
+				},
+				{
+					"filename": "kanto copy_68.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 16
+					},
+					"frame": {
+						"x": 466,
+						"y": 15,
+						"w": 16,
+						"h": 16
+					}
+				},
+				{
+					"filename": "kanto copy_130.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 15,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 482,
+						"y": 15,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "kanto copy_125.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 22,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 22,
+						"h": 16
+					},
+					"frame": {
+						"x": 0,
+						"y": 31,
+						"w": 22,
+						"h": 16
+					}
+				},
+				{
+					"filename": "kanto copy_126.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 22,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 22,
+						"h": 16
+					},
+					"frame": {
+						"x": 22,
+						"y": 31,
+						"w": 22,
+						"h": 16
+					}
+				},
+				{
+					"filename": "kanto copy_129.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 15,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 44,
+						"y": 31,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "kanto copy_91.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 18,
+						"h": 17
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 18,
+						"h": 17
+					},
+					"frame": {
+						"x": 59,
+						"y": 31,
+						"w": 18,
+						"h": 17
+					}
+				},
+				{
+					"filename": "kanto copy_189.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 20,
+						"h": 17
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 20,
+						"h": 17
+					},
+					"frame": {
+						"x": 77,
+						"y": 31,
+						"w": 20,
+						"h": 17
+					}
+				},
+				{
+					"filename": "kanto copy_22.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 13,
+						"h": 17
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 13,
+						"h": 17
+					},
+					"frame": {
+						"x": 97,
+						"y": 31,
+						"w": 13,
+						"h": 17
+					}
+				},
+				{
+					"filename": "kanto copy_231.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 18,
+						"h": 17
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 18,
+						"h": 17
+					},
+					"frame": {
+						"x": 110,
+						"y": 31,
+						"w": 18,
+						"h": 17
+					}
+				},
+				{
+					"filename": "kanto copy_232.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 18,
+						"h": 17
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 18,
+						"h": 17
+					},
+					"frame": {
+						"x": 128,
+						"y": 31,
+						"w": 18,
+						"h": 17
+					}
+				},
+				{
+					"filename": "kanto copy_92.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 18,
+						"h": 17
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 18,
+						"h": 17
+					},
+					"frame": {
+						"x": 146,
+						"y": 31,
+						"w": 18,
+						"h": 17
+					}
+				},
+				{
+					"filename": "kanto copy_239.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 19,
+						"h": 17
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 19,
+						"h": 17
+					},
+					"frame": {
+						"x": 164,
+						"y": 31,
+						"w": 19,
+						"h": 17
+					}
+				},
+				{
+					"filename": "kanto copy_240.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 19,
+						"h": 17
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 19,
+						"h": 17
+					},
+					"frame": {
+						"x": 183,
+						"y": 31,
+						"w": 19,
+						"h": 17
+					}
+				},
+				{
+					"filename": "kanto copy_32.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 23,
+						"h": 17
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 23,
+						"h": 17
+					},
+					"frame": {
+						"x": 202,
+						"y": 31,
+						"w": 23,
+						"h": 17
+					}
+				},
+				{
+					"filename": "kanto copy_18.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 18,
+						"h": 17
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 18,
+						"h": 17
+					},
+					"frame": {
+						"x": 225,
+						"y": 31,
+						"w": 18,
+						"h": 17
+					}
+				},
+				{
+					"filename": "kanto copy_17.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 18,
+						"h": 17
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 18,
+						"h": 17
+					},
+					"frame": {
+						"x": 243,
+						"y": 31,
+						"w": 18,
+						"h": 17
+					}
+				},
+				{
+					"filename": "kanto copy_29.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 13,
+						"h": 17
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 13,
+						"h": 17
+					},
+					"frame": {
+						"x": 261,
+						"y": 31,
+						"w": 13,
+						"h": 17
+					}
+				},
+				{
+					"filename": "kanto copy_63.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 17,
+						"h": 17
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 17,
+						"h": 17
+					},
+					"frame": {
+						"x": 274,
+						"y": 31,
+						"w": 17,
+						"h": 17
+					}
+				},
+				{
+					"filename": "kanto copy_28.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 11,
+						"h": 17
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 11,
+						"h": 17
+					},
+					"frame": {
+						"x": 291,
+						"y": 31,
+						"w": 11,
+						"h": 17
+					}
+				},
+				{
+					"filename": "kanto copy_288.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 13,
+						"h": 17
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 13,
+						"h": 17
+					},
+					"frame": {
+						"x": 302,
+						"y": 31,
+						"w": 13,
+						"h": 17
+					}
+				},
+				{
+					"filename": "kanto copy_147.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 17,
+						"h": 17
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 17,
+						"h": 17
+					},
+					"frame": {
+						"x": 315,
+						"y": 31,
+						"w": 17,
+						"h": 17
+					}
+				},
+				{
+					"filename": "kanto copy_197.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 17,
+						"h": 17
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 17,
+						"h": 17
+					},
+					"frame": {
+						"x": 332,
+						"y": 31,
+						"w": 17,
+						"h": 17
+					}
+				},
+				{
+					"filename": "kanto copy_198.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 17,
+						"h": 17
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 17,
+						"h": 17
+					},
+					"frame": {
+						"x": 349,
+						"y": 31,
+						"w": 17,
+						"h": 17
+					}
+				},
+				{
+					"filename": "kanto copy_64.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 17,
+						"h": 17
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 17,
+						"h": 17
+					},
+					"frame": {
+						"x": 366,
+						"y": 31,
+						"w": 17,
+						"h": 17
+					}
+				},
+				{
+					"filename": "kanto copy_48.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 17,
+						"h": 17
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 17,
+						"h": 17
+					},
+					"frame": {
+						"x": 383,
+						"y": 31,
+						"w": 17,
+						"h": 17
+					}
+				},
+				{
+					"filename": "kanto copy_199.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 24,
+						"h": 17
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 24,
+						"h": 17
+					},
+					"frame": {
+						"x": 400,
+						"y": 31,
+						"w": 24,
+						"h": 17
+					}
+				},
+				{
+					"filename": "kanto copy_93.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 21,
+						"h": 18
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 21,
+						"h": 18
+					},
+					"frame": {
+						"x": 424,
+						"y": 31,
+						"w": 21,
+						"h": 18
+					}
+				},
+				{
+					"filename": "kanto copy_94.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 21,
+						"h": 18
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 21,
+						"h": 18
+					},
+					"frame": {
+						"x": 445,
+						"y": 31,
+						"w": 21,
+						"h": 18
+					}
+				},
+				{
+					"filename": "kanto copy_221.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 17,
+						"h": 18
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 17,
+						"h": 18
+					},
+					"frame": {
+						"x": 466,
+						"y": 31,
+						"w": 17,
+						"h": 18
+					}
+				},
+				{
+					"filename": "kanto copy_222.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 17,
+						"h": 18
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 17,
+						"h": 18
+					},
+					"frame": {
+						"x": 483,
+						"y": 31,
+						"w": 17,
+						"h": 18
+					}
+				},
+				{
+					"filename": "kanto copy_206.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 18
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 18
+					},
+					"frame": {
+						"x": 0,
+						"y": 49,
+						"w": 16,
+						"h": 18
+					}
+				},
+				{
+					"filename": "kanto copy_205.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 18
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 18
+					},
+					"frame": {
+						"x": 16,
+						"y": 49,
+						"w": 16,
+						"h": 18
+					}
+				},
+				{
+					"filename": "kanto copy_253.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 20,
+						"h": 18
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 20,
+						"h": 18
+					},
+					"frame": {
+						"x": 32,
+						"y": 49,
+						"w": 20,
+						"h": 18
+					}
+				},
+				{
+					"filename": "kanto copy_54.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 18
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 18
+					},
+					"frame": {
+						"x": 52,
+						"y": 49,
+						"w": 16,
+						"h": 18
+					}
+				},
+				{
+					"filename": "kanto copy_53.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 18
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 18
+					},
+					"frame": {
+						"x": 68,
+						"y": 49,
+						"w": 16,
+						"h": 18
+					}
+				},
+				{
+					"filename": "kanto copy_23.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 13,
+						"h": 18
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 13,
+						"h": 18
+					},
+					"frame": {
+						"x": 84,
+						"y": 49,
+						"w": 13,
+						"h": 18
+					}
+				},
+				{
+					"filename": "kanto copy_52.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 18
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 18
+					},
+					"frame": {
+						"x": 97,
+						"y": 49,
+						"w": 16,
+						"h": 18
+					}
+				},
+				{
+					"filename": "kanto copy_289.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 15,
+						"h": 18
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 18
+					},
+					"frame": {
+						"x": 113,
+						"y": 49,
+						"w": 15,
+						"h": 18
+					}
+				},
+				{
+					"filename": "kanto copy_30.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 13,
+						"h": 18
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 13,
+						"h": 18
+					},
+					"frame": {
+						"x": 128,
+						"y": 49,
+						"w": 13,
+						"h": 18
+					}
+				},
+				{
+					"filename": "kanto copy_290.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 15,
+						"h": 18
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 18
+					},
+					"frame": {
+						"x": 141,
+						"y": 49,
+						"w": 15,
+						"h": 18
+					}
+				},
+				{
+					"filename": "kanto copy_51.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 18
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 18
+					},
+					"frame": {
+						"x": 156,
+						"y": 49,
+						"w": 16,
+						"h": 18
+					}
+				},
+				{
+					"filename": "kanto copy_69.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 19,
+						"h": 18
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 19,
+						"h": 18
+					},
+					"frame": {
+						"x": 172,
+						"y": 49,
+						"w": 19,
+						"h": 18
+					}
+				},
+				{
+					"filename": "kanto copy_24.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 13,
+						"h": 18
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 13,
+						"h": 18
+					},
+					"frame": {
+						"x": 191,
+						"y": 49,
+						"w": 13,
+						"h": 18
+					}
+				},
+				{
+					"filename": "kanto copy_25.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 24,
+						"h": 18
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 24,
+						"h": 18
+					},
+					"frame": {
+						"x": 204,
+						"y": 49,
+						"w": 24,
+						"h": 18
+					}
+				},
+				{
+					"filename": "kanto copy_272.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 21,
+						"h": 18
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 21,
+						"h": 18
+					},
+					"frame": {
+						"x": 228,
+						"y": 49,
+						"w": 21,
+						"h": 18
+					}
+				},
+				{
+					"filename": "kanto copy_47.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 17,
+						"h": 18
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 17,
+						"h": 18
+					},
+					"frame": {
+						"x": 249,
+						"y": 49,
+						"w": 17,
+						"h": 18
+					}
+				},
+				{
+					"filename": "kanto copy_254.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 20,
+						"h": 18
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 20,
+						"h": 18
+					},
+					"frame": {
+						"x": 266,
+						"y": 49,
+						"w": 20,
+						"h": 18
+					}
+				},
+				{
+					"filename": "kanto copy_271.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 21,
+						"h": 18
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 21,
+						"h": 18
+					},
+					"frame": {
+						"x": 286,
+						"y": 49,
+						"w": 21,
+						"h": 18
+					}
+				},
+				{
+					"filename": "kanto copy_26.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 26,
+						"h": 18
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 26,
+						"h": 18
+					},
+					"frame": {
+						"x": 307,
+						"y": 49,
+						"w": 26,
+						"h": 18
+					}
+				},
+				{
+					"filename": "kanto copy_70.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 19,
+						"h": 18
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 19,
+						"h": 18
+					},
+					"frame": {
+						"x": 333,
+						"y": 49,
+						"w": 19,
+						"h": 18
+					}
+				},
+				{
+					"filename": "kanto copy_99.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 17,
+						"h": 18
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 17,
+						"h": 18
+					},
+					"frame": {
+						"x": 352,
+						"y": 49,
+						"w": 17,
+						"h": 18
+					}
+				},
+				{
+					"filename": "kanto copy_111.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 15,
+						"h": 18
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 18
+					},
+					"frame": {
+						"x": 369,
+						"y": 49,
+						"w": 15,
+						"h": 18
+					}
+				},
+				{
+					"filename": "kanto copy_185.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 19,
+						"h": 18
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 19,
+						"h": 18
+					},
+					"frame": {
+						"x": 384,
+						"y": 49,
+						"w": 19,
+						"h": 18
+					}
+				},
+				{
+					"filename": "kanto copy_112.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 15,
+						"h": 18
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 18
+					},
+					"frame": {
+						"x": 403,
+						"y": 49,
+						"w": 15,
+						"h": 18
+					}
+				},
+				{
+					"filename": "kanto copy_148.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 17,
+						"h": 18
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 17,
+						"h": 18
+					},
+					"frame": {
+						"x": 418,
+						"y": 49,
+						"w": 17,
+						"h": 18
+					}
+				},
+				{
+					"filename": "kanto copy_100.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 17,
+						"h": 18
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 17,
+						"h": 18
+					},
+					"frame": {
+						"x": 435,
+						"y": 49,
+						"w": 17,
+						"h": 18
+					}
+				},
+				{
+					"filename": "kanto copy_39.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 12,
+						"h": 19
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 12,
+						"h": 19
+					},
+					"frame": {
+						"x": 452,
+						"y": 49,
+						"w": 12,
+						"h": 19
+					}
+				},
+				{
+					"filename": "kanto copy_144.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 21,
+						"h": 19
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 21,
+						"h": 19
+					},
+					"frame": {
+						"x": 464,
+						"y": 49,
+						"w": 21,
+						"h": 19
+					}
+				},
+				{
+					"filename": "kanto copy_250.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 23,
+						"h": 19
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 23,
+						"h": 19
+					},
+					"frame": {
+						"x": 485,
+						"y": 49,
+						"w": 23,
+						"h": 19
+					}
+				},
+				{
+					"filename": "kanto copy_230.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 17,
+						"h": 19
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 17,
+						"h": 19
+					},
+					"frame": {
+						"x": 0,
+						"y": 68,
+						"w": 17,
+						"h": 19
+					}
+				},
+				{
+					"filename": "kanto copy_40.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 12,
+						"h": 19
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 12,
+						"h": 19
+					},
+					"frame": {
+						"x": 17,
+						"y": 68,
+						"w": 12,
+						"h": 19
+					}
+				},
+				{
+					"filename": "kanto copy_182.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 21,
+						"h": 19
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 21,
+						"h": 19
+					},
+					"frame": {
+						"x": 29,
+						"y": 68,
+						"w": 21,
+						"h": 19
+					}
+				},
+				{
+					"filename": "kanto copy_241.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 18,
+						"h": 19
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 18,
+						"h": 19
+					},
+					"frame": {
+						"x": 50,
+						"y": 68,
+						"w": 18,
+						"h": 19
+					}
+				},
+				{
+					"filename": "kanto copy_242.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 18,
+						"h": 19
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 18,
+						"h": 19
+					},
+					"frame": {
+						"x": 68,
+						"y": 68,
+						"w": 18,
+						"h": 19
+					}
+				},
+				{
+					"filename": "kanto copy_181.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 19,
+						"h": 19
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 19,
+						"h": 19
+					},
+					"frame": {
+						"x": 86,
+						"y": 68,
+						"w": 19,
+						"h": 19
+					}
+				},
+				{
+					"filename": "kanto copy_127.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 27,
+						"h": 19
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 27,
+						"h": 19
+					},
+					"frame": {
+						"x": 105,
+						"y": 68,
+						"w": 27,
+						"h": 19
+					}
+				},
+				{
+					"filename": "kanto copy_105.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 24,
+						"h": 19
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 24,
+						"h": 19
+					},
+					"frame": {
+						"x": 132,
+						"y": 68,
+						"w": 24,
+						"h": 19
+					}
+				},
+				{
+					"filename": "kanto copy_128.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 27,
+						"h": 19
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 27,
+						"h": 19
+					},
+					"frame": {
+						"x": 156,
+						"y": 68,
+						"w": 27,
+						"h": 19
+					}
+				},
+				{
+					"filename": "kanto copy_87.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 29,
+						"h": 19
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 29,
+						"h": 19
+					},
+					"frame": {
+						"x": 183,
+						"y": 68,
+						"w": 29,
+						"h": 19
+					}
+				},
+				{
+					"filename": "kanto copy_03.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 19,
+						"h": 19
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 19,
+						"h": 19
+					},
+					"frame": {
+						"x": 212,
+						"y": 68,
+						"w": 19,
+						"h": 19
+					}
+				},
+				{
+					"filename": "kanto copy_04.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 19,
+						"h": 19
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 19,
+						"h": 19
+					},
+					"frame": {
+						"x": 231,
+						"y": 68,
+						"w": 19,
+						"h": 19
+					}
+				},
+				{
+					"filename": "kanto copy_78.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 17,
+						"h": 19
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 17,
+						"h": 19
+					},
+					"frame": {
+						"x": 250,
+						"y": 68,
+						"w": 17,
+						"h": 19
+					}
+				},
+				{
+					"filename": "kanto copy_229.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 17,
+						"h": 19
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 17,
+						"h": 19
+					},
+					"frame": {
+						"x": 267,
+						"y": 68,
+						"w": 17,
+						"h": 19
+					}
+				},
+				{
+					"filename": "kanto copy_77.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 17,
+						"h": 19
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 17,
+						"h": 19
+					},
+					"frame": {
+						"x": 284,
+						"y": 68,
+						"w": 17,
+						"h": 19
+					}
+				},
+				{
+					"filename": "kanto copy_59.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 19,
+						"h": 19
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 19,
+						"h": 19
+					},
+					"frame": {
+						"x": 301,
+						"y": 68,
+						"w": 19,
+						"h": 19
+					}
+				},
+				{
+					"filename": "kanto copy_75.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 21,
+						"h": 19
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 21,
+						"h": 19
+					},
+					"frame": {
+						"x": 320,
+						"y": 68,
+						"w": 21,
+						"h": 19
+					}
+				},
+				{
+					"filename": "kanto copy_76.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 21,
+						"h": 19
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 21,
+						"h": 19
+					},
+					"frame": {
+						"x": 341,
+						"y": 68,
+						"w": 21,
+						"h": 19
+					}
+				},
+				{
+					"filename": "kanto copy_60.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 19,
+						"h": 19
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 19,
+						"h": 19
+					},
+					"frame": {
+						"x": 362,
+						"y": 68,
+						"w": 19,
+						"h": 19
+					}
+				},
+				{
+					"filename": "kanto copy_201.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 21,
+						"h": 19
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 21,
+						"h": 19
+					},
+					"frame": {
+						"x": 381,
+						"y": 68,
+						"w": 21,
+						"h": 19
+					}
+				},
+				{
+					"filename": "kanto copy_202.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 21,
+						"h": 19
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 21,
+						"h": 19
+					},
+					"frame": {
+						"x": 402,
+						"y": 68,
+						"w": 21,
+						"h": 19
+					}
+				},
+				{
+					"filename": "kanto copy_191.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 25,
+						"h": 19
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 25,
+						"h": 19
+					},
+					"frame": {
+						"x": 423,
+						"y": 68,
+						"w": 25,
+						"h": 19
+					}
+				},
+				{
+					"filename": "kanto copy_186.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 19,
+						"h": 19
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 19,
+						"h": 19
+					},
+					"frame": {
+						"x": 448,
+						"y": 68,
+						"w": 19,
+						"h": 19
+					}
+				},
+				{
+					"filename": "kanto copy_172.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 15,
+						"h": 20
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 20
+					},
+					"frame": {
+						"x": 467,
+						"y": 68,
+						"w": 15,
+						"h": 20
+					}
+				},
+				{
+					"filename": "kanto copy_131.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 19,
+						"h": 20
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 19,
+						"h": 20
+					},
+					"frame": {
+						"x": 482,
+						"y": 68,
+						"w": 19,
+						"h": 20
+					}
+				},
+				{
+					"filename": "kanto copy_173.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 20,
+						"h": 20
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 20,
+						"h": 20
+					},
+					"frame": {
+						"x": 0,
+						"y": 88,
+						"w": 20,
+						"h": 20
+					}
+				},
+				{
+					"filename": "kanto copy_174.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 21,
+						"h": 20
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 21,
+						"h": 20
+					},
+					"frame": {
+						"x": 20,
+						"y": 88,
+						"w": 21,
+						"h": 20
+					}
+				},
+				{
+					"filename": "kanto copy_249.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 23,
+						"h": 20
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 23,
+						"h": 20
+					},
+					"frame": {
+						"x": 41,
+						"y": 88,
+						"w": 23,
+						"h": 20
+					}
+				},
+				{
+					"filename": "kanto copy_119.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 20
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 20
+					},
+					"frame": {
+						"x": 64,
+						"y": 88,
+						"w": 16,
+						"h": 20
+					}
+				},
+				{
+					"filename": "kanto copy_118.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 25,
+						"h": 20
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 25,
+						"h": 20
+					},
+					"frame": {
+						"x": 80,
+						"y": 88,
+						"w": 25,
+						"h": 20
+					}
+				},
+				{
+					"filename": "kanto copy_132.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 19,
+						"h": 20
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 19,
+						"h": 20
+					},
+					"frame": {
+						"x": 105,
+						"y": 88,
+						"w": 19,
+						"h": 20
+					}
+				},
+				{
+					"filename": "kanto copy_257.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 24,
+						"h": 20
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 24,
+						"h": 20
+					},
+					"frame": {
+						"x": 124,
+						"y": 88,
+						"w": 24,
+						"h": 20
+					}
+				},
+				{
+					"filename": "kanto copy_143.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 21,
+						"h": 20
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 21,
+						"h": 20
+					},
+					"frame": {
+						"x": 148,
+						"y": 88,
+						"w": 21,
+						"h": 20
+					}
+				},
+				{
+					"filename": "kanto copy_156.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 25,
+						"h": 20
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 25,
+						"h": 20
+					},
+					"frame": {
+						"x": 169,
+						"y": 88,
+						"w": 25,
+						"h": 20
+					}
+				},
+				{
+					"filename": "kanto copy_155.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 25,
+						"h": 20
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 25,
+						"h": 20
+					},
+					"frame": {
+						"x": 194,
+						"y": 88,
+						"w": 25,
+						"h": 20
+					}
+				},
+				{
+					"filename": "kanto copy_295.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 26,
+						"h": 20
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 26,
+						"h": 20
+					},
+					"frame": {
+						"x": 219,
+						"y": 88,
+						"w": 26,
+						"h": 20
+					}
+				},
+				{
+					"filename": "kanto copy_296.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 26,
+						"h": 20
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 26,
+						"h": 20
+					},
+					"frame": {
+						"x": 245,
+						"y": 88,
+						"w": 26,
+						"h": 20
+					}
+				},
+				{
+					"filename": "kanto copy_258.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 24,
+						"h": 20
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 24,
+						"h": 20
+					},
+					"frame": {
+						"x": 271,
+						"y": 88,
+						"w": 24,
+						"h": 20
+					}
+				},
+				{
+					"filename": "kanto copy_307.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 20
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 20
+					},
+					"frame": {
+						"x": 295,
+						"y": 88,
+						"w": 16,
+						"h": 20
+					}
+				},
+				{
+					"filename": "kanto copy_171.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 15,
+						"h": 20
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 20
+					},
+					"frame": {
+						"x": 311,
+						"y": 88,
+						"w": 15,
+						"h": 20
+					}
+				},
+				{
+					"filename": "kanto copy_120.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 20
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 20
+					},
+					"frame": {
+						"x": 326,
+						"y": 88,
+						"w": 16,
+						"h": 20
+					}
+				},
+				{
+					"filename": "kanto copy_223.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 19,
+						"h": 20
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 19,
+						"h": 20
+					},
+					"frame": {
+						"x": 342,
+						"y": 88,
+						"w": 19,
+						"h": 20
+					}
+				},
+				{
+					"filename": "kanto copy_192.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 25,
+						"h": 20
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 25,
+						"h": 20
+					},
+					"frame": {
+						"x": 361,
+						"y": 88,
+						"w": 25,
+						"h": 20
+					}
+				},
+				{
+					"filename": "kanto copy_180.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 14,
+						"h": 20
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 14,
+						"h": 20
+					},
+					"frame": {
+						"x": 386,
+						"y": 88,
+						"w": 14,
+						"h": 20
+					}
+				},
+				{
+					"filename": "kanto copy_106.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 24,
+						"h": 20
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 24,
+						"h": 20
+					},
+					"frame": {
+						"x": 400,
+						"y": 88,
+						"w": 24,
+						"h": 20
+					}
+				},
+				{
+					"filename": "kanto copy_233.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 25,
+						"h": 20
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 25,
+						"h": 20
+					},
+					"frame": {
+						"x": 424,
+						"y": 88,
+						"w": 25,
+						"h": 20
+					}
+				},
+				{
+					"filename": "kanto copy_234.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 25,
+						"h": 20
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 25,
+						"h": 20
+					},
+					"frame": {
+						"x": 449,
+						"y": 88,
+						"w": 25,
+						"h": 20
+					}
+				},
+				{
+					"filename": "kanto copy_83.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 19,
+						"h": 20
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 19,
+						"h": 20
+					},
+					"frame": {
+						"x": 474,
+						"y": 88,
+						"w": 19,
+						"h": 20
+					}
+				},
+				{
+					"filename": "kanto copy_224.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 19,
+						"h": 20
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 19,
+						"h": 20
+					},
+					"frame": {
+						"x": 0,
+						"y": 108,
+						"w": 19,
+						"h": 20
+					}
+				},
+				{
+					"filename": "kanto copy_117.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 25,
+						"h": 20
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 25,
+						"h": 20
+					},
+					"frame": {
+						"x": 19,
+						"y": 108,
+						"w": 25,
+						"h": 20
+					}
+				},
+				{
+					"filename": "kanto copy_226.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 21,
+						"h": 20
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 21,
+						"h": 20
+					},
+					"frame": {
+						"x": 44,
+						"y": 108,
+						"w": 21,
+						"h": 20
+					}
+				},
+				{
+					"filename": "kanto copy_179.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 14,
+						"h": 20
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 14,
+						"h": 20
+					},
+					"frame": {
+						"x": 65,
+						"y": 108,
+						"w": 14,
+						"h": 20
+					}
+				},
+				{
+					"filename": "kanto copy_84.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 19,
+						"h": 20
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 19,
+						"h": 20
+					},
+					"frame": {
+						"x": 79,
+						"y": 108,
+						"w": 19,
+						"h": 20
+					}
+				},
+				{
+					"filename": "kanto copy_88.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 25,
+						"h": 20
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 25,
+						"h": 20
+					},
+					"frame": {
+						"x": 98,
+						"y": 108,
+						"w": 25,
+						"h": 20
+					}
+				},
+				{
+					"filename": "kanto copy_225.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 21,
+						"h": 20
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 21,
+						"h": 20
+					},
+					"frame": {
+						"x": 123,
+						"y": 108,
+						"w": 21,
+						"h": 20
+					}
+				},
+				{
+					"filename": "kanto copy_138.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 23,
+						"h": 21
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 23,
+						"h": 21
+					},
+					"frame": {
+						"x": 144,
+						"y": 108,
+						"w": 23,
+						"h": 21
+					}
+				},
+				{
+					"filename": "kanto copy_308.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 21
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 21
+					},
+					"frame": {
+						"x": 167,
+						"y": 108,
+						"w": 16,
+						"h": 21
+					}
+				},
+				{
+					"filename": "kanto copy_157.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 11,
+						"h": 21
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 11,
+						"h": 21
+					},
+					"frame": {
+						"x": 183,
+						"y": 108,
+						"w": 11,
+						"h": 21
+					}
+				},
+				{
+					"filename": "kanto copy_137.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 23,
+						"h": 21
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 23,
+						"h": 21
+					},
+					"frame": {
+						"x": 194,
+						"y": 108,
+						"w": 23,
+						"h": 21
+					}
+				},
+				{
+					"filename": "kanto copy_41.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 21
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 21
+					},
+					"frame": {
+						"x": 217,
+						"y": 108,
+						"w": 16,
+						"h": 21
+					}
+				},
+				{
+					"filename": "kanto copy_50.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 19,
+						"h": 21
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 19,
+						"h": 21
+					},
+					"frame": {
+						"x": 233,
+						"y": 108,
+						"w": 19,
+						"h": 21
+					}
+				},
+				{
+					"filename": "kanto copy_35.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 25,
+						"h": 21
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 25,
+						"h": 21
+					},
+					"frame": {
+						"x": 252,
+						"y": 108,
+						"w": 25,
+						"h": 21
+					}
+				},
+				{
+					"filename": "kanto copy_275.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 23,
+						"h": 21
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 23,
+						"h": 21
+					},
+					"frame": {
+						"x": 277,
+						"y": 108,
+						"w": 23,
+						"h": 21
+					}
+				},
+				{
+					"filename": "kanto copy_12.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 13,
+						"h": 21
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 13,
+						"h": 21
+					},
+					"frame": {
+						"x": 300,
+						"y": 108,
+						"w": 13,
+						"h": 21
+					}
+				},
+				{
+					"filename": "kanto copy_71.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 19,
+						"h": 21
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 19,
+						"h": 21
+					},
+					"frame": {
+						"x": 313,
+						"y": 108,
+						"w": 19,
+						"h": 21
+					}
+				},
+				{
+					"filename": "kanto copy_215.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 22,
+						"h": 21
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 22,
+						"h": 21
+					},
+					"frame": {
+						"x": 332,
+						"y": 108,
+						"w": 22,
+						"h": 21
+					}
+				},
+				{
+					"filename": "kanto copy_36.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 26,
+						"h": 21
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 26,
+						"h": 21
+					},
+					"frame": {
+						"x": 354,
+						"y": 108,
+						"w": 26,
+						"h": 21
+					}
+				},
+				{
+					"filename": "kanto copy_72.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 19,
+						"h": 21
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 19,
+						"h": 21
+					},
+					"frame": {
+						"x": 380,
+						"y": 108,
+						"w": 19,
+						"h": 21
+					}
+				},
+				{
+					"filename": "kanto copy_216.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 22,
+						"h": 21
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 22,
+						"h": 21
+					},
+					"frame": {
+						"x": 399,
+						"y": 108,
+						"w": 22,
+						"h": 21
+					}
+				},
+				{
+					"filename": "kanto copy_42.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 21
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 21
+					},
+					"frame": {
+						"x": 421,
+						"y": 108,
+						"w": 16,
+						"h": 21
+					}
+				},
+				{
+					"filename": "kanto copy_11.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 13,
+						"h": 21
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 13,
+						"h": 21
+					},
+					"frame": {
+						"x": 437,
+						"y": 108,
+						"w": 13,
+						"h": 21
+					}
+				},
+				{
+					"filename": "kanto copy_227.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 18,
+						"h": 21
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 18,
+						"h": 21
+					},
+					"frame": {
+						"x": 450,
+						"y": 108,
+						"w": 18,
+						"h": 21
+					}
+				},
+				{
+					"filename": "kanto copy_228.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 18,
+						"h": 21
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 18,
+						"h": 21
+					},
+					"frame": {
+						"x": 468,
+						"y": 108,
+						"w": 18,
+						"h": 21
+					}
+				},
+				{
+					"filename": "kanto copy_235.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 17,
+						"h": 21
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 17,
+						"h": 21
+					},
+					"frame": {
+						"x": 486,
+						"y": 108,
+						"w": 17,
+						"h": 21
+					}
+				},
+				{
+					"filename": "kanto copy_243.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 22,
+						"h": 21
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 22,
+						"h": 21
+					},
+					"frame": {
+						"x": 0,
+						"y": 129,
+						"w": 22,
+						"h": 21
+					}
+				},
+				{
+					"filename": "kanto copy_177.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 27,
+						"h": 21
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 27,
+						"h": 21
+					},
+					"frame": {
+						"x": 22,
+						"y": 129,
+						"w": 27,
+						"h": 21
+					}
+				},
+				{
+					"filename": "kanto copy_238.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 23,
+						"h": 21
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 23,
+						"h": 21
+					},
+					"frame": {
+						"x": 49,
+						"y": 129,
+						"w": 23,
+						"h": 21
+					}
+				},
+				{
+					"filename": "kanto copy_236.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 17,
+						"h": 21
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 17,
+						"h": 21
+					},
+					"frame": {
+						"x": 72,
+						"y": 129,
+						"w": 17,
+						"h": 21
+					}
+				},
+				{
+					"filename": "kanto copy_237.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 23,
+						"h": 21
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 23,
+						"h": 21
+					},
+					"frame": {
+						"x": 89,
+						"y": 129,
+						"w": 23,
+						"h": 21
+					}
+				},
+				{
+					"filename": "kanto copy_244.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 22,
+						"h": 21
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 22,
+						"h": 21
+					},
+					"frame": {
+						"x": 112,
+						"y": 129,
+						"w": 22,
+						"h": 21
+					}
+				},
+				{
+					"filename": "kanto copy_158.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 11,
+						"h": 21
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 11,
+						"h": 21
+					},
+					"frame": {
+						"x": 134,
+						"y": 129,
+						"w": 11,
+						"h": 21
+					}
+				},
+				{
+					"filename": "kanto copy_113.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 17,
+						"h": 22
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 17,
+						"h": 22
+					},
+					"frame": {
+						"x": 145,
+						"y": 129,
+						"w": 17,
+						"h": 22
+					}
+				},
+				{
+					"filename": "kanto copy_298.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 29,
+						"h": 22
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 29,
+						"h": 22
+					},
+					"frame": {
+						"x": 162,
+						"y": 129,
+						"w": 29,
+						"h": 22
+					}
+				},
+				{
+					"filename": "kanto copy_178.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 27,
+						"h": 22
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 27,
+						"h": 22
+					},
+					"frame": {
+						"x": 191,
+						"y": 129,
+						"w": 27,
+						"h": 22
+					}
+				},
+				{
+					"filename": "kanto copy_114.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 17,
+						"h": 22
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 17,
+						"h": 22
+					},
+					"frame": {
+						"x": 218,
+						"y": 129,
+						"w": 17,
+						"h": 22
+					}
+				},
+				{
+					"filename": "kanto copy_56.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 24,
+						"h": 22
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 24,
+						"h": 22
+					},
+					"frame": {
+						"x": 235,
+						"y": 129,
+						"w": 24,
+						"h": 22
+					}
+				},
+				{
+					"filename": "kanto copy_247.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 19,
+						"h": 22
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 19,
+						"h": 22
+					},
+					"frame": {
+						"x": 259,
+						"y": 129,
+						"w": 19,
+						"h": 22
+					}
+				},
+				{
+					"filename": "kanto copy_134.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 24,
+						"h": 22
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 24,
+						"h": 22
+					},
+					"frame": {
+						"x": 278,
+						"y": 129,
+						"w": 24,
+						"h": 22
+					}
+				},
+				{
+					"filename": "kanto copy_263.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 21,
+						"h": 22
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 21,
+						"h": 22
+					},
+					"frame": {
+						"x": 302,
+						"y": 129,
+						"w": 21,
+						"h": 22
+					}
+				},
+				{
+					"filename": "kanto copy_133.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 24,
+						"h": 22
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 24,
+						"h": 22
+					},
+					"frame": {
+						"x": 323,
+						"y": 129,
+						"w": 24,
+						"h": 22
+					}
+				},
+				{
+					"filename": "kanto copy_264.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 21,
+						"h": 22
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 21,
+						"h": 22
+					},
+					"frame": {
+						"x": 347,
+						"y": 129,
+						"w": 21,
+						"h": 22
+					}
+				},
+				{
+					"filename": "kanto copy_65.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 19,
+						"h": 22
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 19,
+						"h": 22
+					},
+					"frame": {
+						"x": 368,
+						"y": 129,
+						"w": 19,
+						"h": 22
+					}
+				},
+				{
+					"filename": "kanto copy_256.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 24,
+						"h": 22
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 24,
+						"h": 22
+					},
+					"frame": {
+						"x": 387,
+						"y": 129,
+						"w": 24,
+						"h": 22
+					}
+				},
+				{
+					"filename": "kanto copy_267.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 25,
+						"h": 22
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 25,
+						"h": 22
+					},
+					"frame": {
+						"x": 411,
+						"y": 129,
+						"w": 25,
+						"h": 22
+					}
+				},
+				{
+					"filename": "kanto copy_49.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 19,
+						"h": 22
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 19,
+						"h": 22
+					},
+					"frame": {
+						"x": 436,
+						"y": 129,
+						"w": 19,
+						"h": 22
+					}
+				},
+				{
+					"filename": "kanto copy_55.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 24,
+						"h": 22
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 24,
+						"h": 22
+					},
+					"frame": {
+						"x": 455,
+						"y": 129,
+						"w": 24,
+						"h": 22
+					}
+				},
+				{
+					"filename": "kanto copy_268.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 25,
+						"h": 22
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 25,
+						"h": 22
+					},
+					"frame": {
+						"x": 479,
+						"y": 129,
+						"w": 25,
+						"h": 22
+					}
+				},
+				{
+					"filename": "kanto copy_276.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 23,
+						"h": 22
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 23,
+						"h": 22
+					},
+					"frame": {
+						"x": 0,
+						"y": 151,
+						"w": 23,
+						"h": 22
+					}
+				},
+				{
+					"filename": "kanto copy_255.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 24,
+						"h": 22
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 24,
+						"h": 22
+					},
+					"frame": {
+						"x": 23,
+						"y": 151,
+						"w": 24,
+						"h": 22
+					}
+				},
+				{
+					"filename": "kanto copy_207.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 22,
+						"h": 22
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 22,
+						"h": 22
+					},
+					"frame": {
+						"x": 47,
+						"y": 151,
+						"w": 22,
+						"h": 22
+					}
+				},
+				{
+					"filename": "kanto copy_283.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 17,
+						"h": 22
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 17,
+						"h": 22
+					},
+					"frame": {
+						"x": 69,
+						"y": 151,
+						"w": 17,
+						"h": 22
+					}
+				},
+				{
+					"filename": "kanto copy_284.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 17,
+						"h": 22
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 17,
+						"h": 22
+					},
+					"frame": {
+						"x": 86,
+						"y": 151,
+						"w": 17,
+						"h": 22
+					}
+				},
+				{
+					"filename": "kanto copy_208.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 22,
+						"h": 22
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 22,
+						"h": 22
+					},
+					"frame": {
+						"x": 103,
+						"y": 151,
+						"w": 22,
+						"h": 22
+					}
+				},
+				{
+					"filename": "kanto copy_292.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 23,
+						"h": 22
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 23,
+						"h": 22
+					},
+					"frame": {
+						"x": 125,
+						"y": 151,
+						"w": 23,
+						"h": 22
+					}
+				},
+				{
+					"filename": "kanto copy_211.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 19,
+						"h": 22
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 19,
+						"h": 22
+					},
+					"frame": {
+						"x": 148,
+						"y": 151,
+						"w": 19,
+						"h": 22
+					}
+				},
+				{
+					"filename": "kanto copy_291.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 23,
+						"h": 22
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 23,
+						"h": 22
+					},
+					"frame": {
+						"x": 167,
+						"y": 151,
+						"w": 23,
+						"h": 22
+					}
+				},
+				{
+					"filename": "kanto copy_66.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 19,
+						"h": 22
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 19,
+						"h": 22
+					},
+					"frame": {
+						"x": 190,
+						"y": 151,
+						"w": 19,
+						"h": 22
+					}
+				},
+				{
+					"filename": "kanto copy_20.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 26,
+						"h": 23
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 26,
+						"h": 23
+					},
+					"frame": {
+						"x": 209,
+						"y": 151,
+						"w": 26,
+						"h": 23
+					}
+				},
+				{
+					"filename": "kanto copy_101.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 29,
+						"h": 23
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 29,
+						"h": 23
+					},
+					"frame": {
+						"x": 235,
+						"y": 151,
+						"w": 29,
+						"h": 23
+					}
+				},
+				{
+					"filename": "kanto copy_107.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 23
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 23
+					},
+					"frame": {
+						"x": 264,
+						"y": 151,
+						"w": 16,
+						"h": 23
+					}
+				},
+				{
+					"filename": "kanto copy_261.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 25,
+						"h": 23
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 25,
+						"h": 23
+					},
+					"frame": {
+						"x": 280,
+						"y": 151,
+						"w": 25,
+						"h": 23
+					}
+				},
+				{
+					"filename": "kanto copy_79.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 27,
+						"h": 23
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 27,
+						"h": 23
+					},
+					"frame": {
+						"x": 305,
+						"y": 151,
+						"w": 27,
+						"h": 23
+					}
+				},
+				{
+					"filename": "kanto copy_108.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 23
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 23
+					},
+					"frame": {
+						"x": 332,
+						"y": 151,
+						"w": 16,
+						"h": 23
+					}
+				},
+				{
+					"filename": "kanto copy_80.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 27,
+						"h": 23
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 27,
+						"h": 23
+					},
+					"frame": {
+						"x": 348,
+						"y": 151,
+						"w": 27,
+						"h": 23
+					}
+				},
+				{
+					"filename": "kanto copy_212.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 19,
+						"h": 23
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 19,
+						"h": 23
+					},
+					"frame": {
+						"x": 375,
+						"y": 151,
+						"w": 19,
+						"h": 23
+					}
+				},
+				{
+					"filename": "kanto copy_248.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 19,
+						"h": 23
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 19,
+						"h": 23
+					},
+					"frame": {
+						"x": 394,
+						"y": 151,
+						"w": 19,
+						"h": 23
+					}
+				},
+				{
+					"filename": "kanto copy_217.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 24,
+						"h": 23
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 24,
+						"h": 23
+					},
+					"frame": {
+						"x": 413,
+						"y": 151,
+						"w": 24,
+						"h": 23
+					}
+				},
+				{
+					"filename": "kanto copy_19.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 26,
+						"h": 23
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 26,
+						"h": 23
+					},
+					"frame": {
+						"x": 437,
+						"y": 151,
+						"w": 26,
+						"h": 23
+					}
+				},
+				{
+					"filename": "kanto copy_46.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 23,
+						"h": 23
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 23,
+						"h": 23
+					},
+					"frame": {
+						"x": 463,
+						"y": 151,
+						"w": 23,
+						"h": 23
+					}
+				},
+				{
+					"filename": "kanto copy_149.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 23,
+						"h": 23
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 23,
+						"h": 23
+					},
+					"frame": {
+						"x": 0,
+						"y": 174,
+						"w": 23,
+						"h": 23
+					}
+				},
+				{
+					"filename": "kanto copy_285.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 17,
+						"h": 23
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 17,
+						"h": 23
+					},
+					"frame": {
+						"x": 23,
+						"y": 174,
+						"w": 17,
+						"h": 23
+					}
+				},
+				{
+					"filename": "kanto copy_150.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 23,
+						"h": 23
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 23,
+						"h": 23
+					},
+					"frame": {
+						"x": 40,
+						"y": 174,
+						"w": 23,
+						"h": 23
+					}
+				},
+				{
+					"filename": "kanto copy_304.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 29,
+						"h": 23
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 29,
+						"h": 23
+					},
+					"frame": {
+						"x": 63,
+						"y": 174,
+						"w": 29,
+						"h": 23
+					}
+				},
+				{
+					"filename": "kanto copy_98.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 23,
+						"h": 23
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 23,
+						"h": 23
+					},
+					"frame": {
+						"x": 92,
+						"y": 174,
+						"w": 23,
+						"h": 23
+					}
+				},
+				{
+					"filename": "kanto copy_303.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 29,
+						"h": 23
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 29,
+						"h": 23
+					},
+					"frame": {
+						"x": 115,
+						"y": 174,
+						"w": 29,
+						"h": 23
+					}
+				},
+				{
+					"filename": "kanto copy_297.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 29,
+						"h": 23
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 29,
+						"h": 23
+					},
+					"frame": {
+						"x": 144,
+						"y": 174,
+						"w": 29,
+						"h": 23
+					}
+				},
+				{
+					"filename": "kanto copy_286.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 17,
+						"h": 23
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 17,
+						"h": 23
+					},
+					"frame": {
+						"x": 173,
+						"y": 174,
+						"w": 17,
+						"h": 23
+					}
+				},
+				{
+					"filename": "kanto copy_97.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 23,
+						"h": 23
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 23,
+						"h": 23
+					},
+					"frame": {
+						"x": 190,
+						"y": 174,
+						"w": 23,
+						"h": 23
+					}
+				},
+				{
+					"filename": "kanto copy_06.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 24,
+						"h": 24
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 24,
+						"h": 24
+					},
+					"frame": {
+						"x": 213,
+						"y": 174,
+						"w": 24,
+						"h": 24
+					}
+				},
+				{
+					"filename": "kanto copy_139.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 27,
+						"h": 24
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 27,
+						"h": 24
+					},
+					"frame": {
+						"x": 237,
+						"y": 174,
+						"w": 27,
+						"h": 24
+					}
+				},
+				{
+					"filename": "kanto copy_05.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 24,
+						"h": 24
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 24,
+						"h": 24
+					},
+					"frame": {
+						"x": 264,
+						"y": 174,
+						"w": 24,
+						"h": 24
+					}
+				},
+				{
+					"filename": "kanto copy_196.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 27,
+						"h": 24
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 27,
+						"h": 24
+					},
+					"frame": {
+						"x": 288,
+						"y": 174,
+						"w": 27,
+						"h": 24
+					}
+				},
+				{
+					"filename": "kanto copy_140.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 27,
+						"h": 24
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 27,
+						"h": 24
+					},
+					"frame": {
+						"x": 315,
+						"y": 174,
+						"w": 27,
+						"h": 24
+					}
+				},
+				{
+					"filename": "kanto copy_102.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 19,
+						"h": 24
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 19,
+						"h": 24
+					},
+					"frame": {
+						"x": 342,
+						"y": 174,
+						"w": 19,
+						"h": 24
+					}
+				},
+				{
+					"filename": "kanto copy_218.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 24,
+						"h": 24
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 24,
+						"h": 24
+					},
+					"frame": {
+						"x": 361,
+						"y": 174,
+						"w": 24,
+						"h": 24
+					}
+				},
+				{
+					"filename": "kanto copy_08.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 25,
+						"h": 24
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 25,
+						"h": 24
+					},
+					"frame": {
+						"x": 385,
+						"y": 174,
+						"w": 25,
+						"h": 24
+					}
+				},
+				{
+					"filename": "kanto copy_195.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 26,
+						"h": 24
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 26,
+						"h": 24
+					},
+					"frame": {
+						"x": 410,
+						"y": 174,
+						"w": 26,
+						"h": 24
+					}
+				},
+				{
+					"filename": "kanto copy_145.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 27,
+						"h": 24
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 27,
+						"h": 24
+					},
+					"frame": {
+						"x": 436,
+						"y": 174,
+						"w": 27,
+						"h": 24
+					}
+				},
+				{
+					"filename": "kanto copy_07.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 25,
+						"h": 24
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 25,
+						"h": 24
+					},
+					"frame": {
+						"x": 463,
+						"y": 174,
+						"w": 25,
+						"h": 24
+					}
+				},
+				{
+					"filename": "kanto copy_14.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 28,
+						"h": 24
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 28,
+						"h": 24
+					},
+					"frame": {
+						"x": 0,
+						"y": 198,
+						"w": 28,
+						"h": 24
+					}
+				},
+				{
+					"filename": "kanto copy_188.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 25,
+						"h": 24
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 25,
+						"h": 24
+					},
+					"frame": {
+						"x": 28,
+						"y": 198,
+						"w": 25,
+						"h": 24
+					}
+				},
+				{
+					"filename": "kanto copy_259.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 23,
+						"h": 24
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 23,
+						"h": 24
+					},
+					"frame": {
+						"x": 53,
+						"y": 198,
+						"w": 23,
+						"h": 24
+					}
+				},
+				{
+					"filename": "kanto copy_265.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 21,
+						"h": 24
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 21,
+						"h": 24
+					},
+					"frame": {
+						"x": 76,
+						"y": 198,
+						"w": 21,
+						"h": 24
+					}
+				},
+				{
+					"filename": "kanto copy_252.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 25,
+						"h": 24
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 25,
+						"h": 24
+					},
+					"frame": {
+						"x": 97,
+						"y": 198,
+						"w": 25,
+						"h": 24
+					}
+				},
+				{
+					"filename": "kanto copy_13.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 28,
+						"h": 24
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 28,
+						"h": 24
+					},
+					"frame": {
+						"x": 122,
+						"y": 198,
+						"w": 28,
+						"h": 24
+					}
+				},
+				{
+					"filename": "kanto copy_45.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 29,
+						"h": 24
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 29,
+						"h": 24
+					},
+					"frame": {
+						"x": 150,
+						"y": 198,
+						"w": 29,
+						"h": 24
+					}
+				},
+				{
+					"filename": "kanto copy_305.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 29,
+						"h": 24
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 29,
+						"h": 24
+					},
+					"frame": {
+						"x": 179,
+						"y": 198,
+						"w": 29,
+						"h": 24
+					}
+				},
+				{
+					"filename": "kanto copy_262.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 25,
+						"h": 24
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 25,
+						"h": 24
+					},
+					"frame": {
+						"x": 208,
+						"y": 198,
+						"w": 25,
+						"h": 24
+					}
+				},
+				{
+					"filename": "kanto copy_187.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 25,
+						"h": 24
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 25,
+						"h": 24
+					},
+					"frame": {
+						"x": 233,
+						"y": 198,
+						"w": 25,
+						"h": 24
+					}
+				},
+				{
+					"filename": "kanto copy_260.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 23,
+						"h": 24
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 23,
+						"h": 24
+					},
+					"frame": {
+						"x": 258,
+						"y": 198,
+						"w": 23,
+						"h": 24
+					}
+				},
+				{
+					"filename": "kanto copy_266.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 21,
+						"h": 24
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 21,
+						"h": 24
+					},
+					"frame": {
+						"x": 281,
+						"y": 198,
+						"w": 21,
+						"h": 24
+					}
+				},
+				{
+					"filename": "kanto copy_251.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 25,
+						"h": 25
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 25,
+						"h": 25
+					},
+					"frame": {
+						"x": 302,
+						"y": 198,
+						"w": 25,
+						"h": 25
+					}
+				},
+				{
+					"filename": "kanto copy_110.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 15,
+						"h": 25
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 25
+					},
+					"frame": {
+						"x": 327,
+						"y": 198,
+						"w": 15,
+						"h": 25
+					}
+				},
+				{
+					"filename": "kanto copy_301.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 29,
+						"h": 25
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 29,
+						"h": 25
+					},
+					"frame": {
+						"x": 342,
+						"y": 198,
+						"w": 29,
+						"h": 25
+					}
+				},
+				{
+					"filename": "kanto copy_281.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 19,
+						"h": 26
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 19,
+						"h": 26
+					},
+					"frame": {
+						"x": 371,
+						"y": 198,
+						"w": 19,
+						"h": 26
+					}
+				},
+				{
+					"filename": "kanto copy_309.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 24,
+						"h": 26
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 24,
+						"h": 26
+					},
+					"frame": {
+						"x": 390,
+						"y": 198,
+						"w": 24,
+						"h": 26
+					}
+				},
+				{
+					"filename": "kanto copy_300.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 27,
+						"h": 26
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 27,
+						"h": 26
+					},
+					"frame": {
+						"x": 414,
+						"y": 198,
+						"w": 27,
+						"h": 26
+					}
+				},
+				{
+					"filename": "kanto copy_299.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 27,
+						"h": 26
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 27,
+						"h": 26
+					},
+					"frame": {
+						"x": 441,
+						"y": 198,
+						"w": 27,
+						"h": 26
+					}
+				},
+				{
+					"filename": "kanto copy_146.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 27,
+						"h": 26
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 27,
+						"h": 26
+					},
+					"frame": {
+						"x": 468,
+						"y": 198,
+						"w": 27,
+						"h": 26
+					}
+				},
+				{
+					"filename": "kanto copy_109.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 15,
+						"h": 26
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 26
+					},
+					"frame": {
+						"x": 0,
+						"y": 224,
+						"w": 15,
+						"h": 26
+					}
+				},
+				{
+					"filename": "kanto copy_159.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 17,
+						"h": 27
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 17,
+						"h": 27
+					},
+					"frame": {
+						"x": 15,
+						"y": 224,
+						"w": 17,
+						"h": 27
+					}
+				},
+				{
+					"filename": "kanto copy_310.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 24,
+						"h": 27
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 24,
+						"h": 27
+					},
+					"frame": {
+						"x": 32,
+						"y": 224,
+						"w": 24,
+						"h": 27
+					}
+				},
+				{
+					"filename": "kanto copy_37.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 30,
+						"h": 27
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 30,
+						"h": 27
+					},
+					"frame": {
+						"x": 56,
+						"y": 224,
+						"w": 30,
+						"h": 27
+					}
+				},
+				{
+					"filename": "kanto copy_269.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 19,
+						"h": 27
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 19,
+						"h": 27
+					},
+					"frame": {
+						"x": 86,
+						"y": 224,
+						"w": 19,
+						"h": 27
+					}
+				},
+				{
+					"filename": "kanto copy_282.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 19,
+						"h": 27
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 19,
+						"h": 27
+					},
+					"frame": {
+						"x": 105,
+						"y": 224,
+						"w": 19,
+						"h": 27
+					}
+				},
+				{
+					"filename": "kanto copy_270.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 19,
+						"h": 27
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 19,
+						"h": 27
+					},
+					"frame": {
+						"x": 124,
+						"y": 224,
+						"w": 19,
+						"h": 27
+					}
+				},
+				{
+					"filename": "kanto copy_160.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 17,
+						"h": 27
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 17,
+						"h": 27
+					},
+					"frame": {
+						"x": 143,
+						"y": 224,
+						"w": 17,
+						"h": 27
+					}
+				},
+				{
+					"filename": "kanto copy_204.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 22,
+						"h": 28
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 22,
+						"h": 28
+					},
+					"frame": {
+						"x": 160,
+						"y": 224,
+						"w": 22,
+						"h": 28
+					}
+				},
+				{
+					"filename": "kanto copy_219.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 24,
+						"h": 28
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 24,
+						"h": 28
+					},
+					"frame": {
+						"x": 182,
+						"y": 224,
+						"w": 24,
+						"h": 28
+					}
+				},
+				{
+					"filename": "kanto copy_122.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 19,
+						"h": 28
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 19,
+						"h": 28
+					},
+					"frame": {
+						"x": 206,
+						"y": 224,
+						"w": 19,
+						"h": 28
+					}
+				},
+				{
+					"filename": "kanto copy_220.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 24,
+						"h": 28
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 24,
+						"h": 28
+					},
+					"frame": {
+						"x": 225,
+						"y": 224,
+						"w": 24,
+						"h": 28
+					}
+				},
+				{
+					"filename": "kanto copy_183.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 28,
+						"h": 28
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 28,
+						"h": 28
+					},
+					"frame": {
+						"x": 249,
+						"y": 224,
+						"w": 28,
+						"h": 28
+					}
+				},
+				{
+					"filename": "kanto copy_121.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 19,
+						"h": 28
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 19,
+						"h": 28
+					},
+					"frame": {
+						"x": 277,
+						"y": 224,
+						"w": 19,
+						"h": 28
+					}
+				},
+				{
+					"filename": "kanto copy_306.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 29,
+						"h": 28
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 29,
+						"h": 28
+					},
+					"frame": {
+						"x": 296,
+						"y": 224,
+						"w": 29,
+						"h": 28
+					}
+				},
+				{
+					"filename": "kanto copy_184.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 28,
+						"h": 29
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 28,
+						"h": 29
+					},
+					"frame": {
+						"x": 325,
+						"y": 224,
+						"w": 28,
+						"h": 29
+					}
+				},
+				{
+					"filename": "kanto copy_203.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 22,
+						"h": 29
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 22,
+						"h": 29
+					},
+					"frame": {
+						"x": 353,
+						"y": 224,
+						"w": 22,
+						"h": 29
+					}
+				},
+				{
+					"filename": "kanto copy_273.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 30,
+						"h": 30
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 30,
+						"h": 30
+					},
+					"frame": {
+						"x": 375,
+						"y": 224,
+						"w": 30,
+						"h": 30
+					}
+				},
+				{
+					"filename": "kanto copy_38.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 22,
+						"h": 30
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 22,
+						"h": 30
+					},
+					"frame": {
+						"x": 405,
+						"y": 224,
+						"w": 22,
+						"h": 30
+					}
+				},
+				{
+					"filename": "kanto copy_302.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 27,
+						"h": 30
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 27,
+						"h": 30
+					},
+					"frame": {
+						"x": 427,
+						"y": 224,
+						"w": 27,
+						"h": 30
+					}
+				},
+				{
+					"filename": "kanto copy_274.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 30,
+						"h": 30
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 30,
+						"h": 30
+					},
+					"frame": {
+						"x": 454,
+						"y": 224,
+						"w": 30,
+						"h": 30
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:a1a777b1bfbc353d0805862141bf9070:d6560abb72f78488f9fdc2e4dc3e6885:f7dcbb7a7b57fbd58e9741023de7d789$"
+	}
+}

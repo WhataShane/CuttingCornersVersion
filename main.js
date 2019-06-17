@@ -10,6 +10,7 @@ var config = {
     type: Phaser.Canvas,
     width: width,
     height: height,
+    pixelArt: true,
     scene: {
         preload: preload,
         create: create,
@@ -21,7 +22,6 @@ var game = new Phaser.Game(config);
 
 function preload ()
 {
-
   this.load.path = '/';
   //TO-DO: condense into a spritesheet
   this.load.image('ball1', 'images/ball/1.png');
@@ -52,16 +52,9 @@ function preload ()
   this.load.image('ball26', 'images/ball/26.png');
   this.load.image('ball27', 'images/ball/27.png');
   this.load.image('ball28', 'images/ball/28.png');
+  this.load.image('grass', 'images/grass2.png')
+  this.load.multiatlas('mons', 'images/monsR/here.json', 'images/monsR');
 
-
-  if (window.innerWidth < 400) {
-    var grass = this.load.image('grass', 'images/grass2.png')
-    grass.width = window.innerWidth;
-  } else {
-    var grass = this.load.image('grass', 'images/grass2.png');
-  }
-
-  this.load.multiatlas('cityscene', 'images/monsR/here.json', 'monsR');
 
 }
 
@@ -69,6 +62,16 @@ function create ()
 {
 
   this.cameras.main.backgroundColor.setTo(0, 233, 75)
+
+  var frameNames = this.anims.generateFrameNames('mons', {
+                   start: 19, end: 20,
+                   prefix: 'images/monsR/mon_', suffix: '.png'
+               });
+
+  this.anims.create({ key: 'walk',
+                      frames: frameNames,
+                      frameRate: 10,
+                      repeat: -1 });
 
   this.anims.create({
           key: 'roll',
@@ -106,16 +109,45 @@ function create ()
           repeat: -1
       });
 
+
+
       grassy = this.add.sprite(0, 0, 'grass').setOrigin(0, 0);
       offstageGrassy = this.add.sprite(0, -494, 'grass').setOrigin(0, 0);
       remainderGrassy = this.add.sprite(0, 494, 'grass').setOrigin(0, 0);
-      ball = this.add.sprite(50, height - 40, 'ball1').setScale(.10).play('roll');
+
+      if (window.innerWidth < 400) {
+        grassy.width = window.innerWidth;
+        offstageGrassy.width = window.innerWidth;
+        remainderGrassy.width = window.innerWidth;
+      }
+
+     ball = this.add.sprite(50, height - 40, 'ball1').setScale(.10).play('roll');
+
+     var graphics = this.add.graphics({ fillStyle: { color: 0x0000ff } });
+
+     var lane = width / 4;
+     var centerLane = lane / 2;
+
+     for (var x = 0; x < width; x+=lane) {
+       graphics.fillRectShape(new Phaser.Geom.Rectangle(centerLane+x, 0, 50, 50));
+     }
+
+
+
+    var scale = 4;
+    bulba = this.add.sprite(40, 40, 'mons', 'mon_19.png').setScale(scale).play('walk');
 
 }
 
+
+
 function update ()
 {
-  var grassSpeed = 2;
+
+  bulba.y += 5;
+
+
+  var grassSpeed = 4;
   grassy.y += grassSpeed;
   offstageGrassy.y += grassSpeed;
   remainderGrassy.y += grassSpeed;

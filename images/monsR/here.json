@@ -10,7 +10,7 @@
 			"scale": 1,
 			"frames": [
 				{
-					"filename": "kanto copy_151.png",
+					"filename": "mon_151.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -31,7 +31,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_152.png",
+					"filename": "mon_152.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -52,7 +52,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_104.png",
+					"filename": "mon_104.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -73,7 +73,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_175.png",
+					"filename": "mon_175.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -94,7 +94,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_103.png",
+					"filename": "mon_103.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -115,7 +115,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_176.png",
+					"filename": "mon_176.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -136,7 +136,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_277.png",
+					"filename": "mon_277.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -157,7 +157,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_85.png",
+					"filename": "mon_85.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -178,7 +178,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_90.png",
+					"filename": "mon_90.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -199,7 +199,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_89.png",
+					"filename": "mon_89.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -220,7 +220,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_278.png",
+					"filename": "mon_278.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -241,7 +241,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_294.png",
+					"filename": "mon_294.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -262,7 +262,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_43.png",
+					"filename": "mon_43.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -283,7 +283,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_293.png",
+					"filename": "mon_293.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -304,7 +304,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_34.png",
+					"filename": "mon_34.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -325,7 +325,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_44.png",
+					"filename": "mon_44.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -346,7 +346,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_33.png",
+					"filename": "mon_33.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -367,7 +367,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_209.png",
+					"filename": "mon_209.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -388,7 +388,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_213.png",
+					"filename": "mon_213.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -409,7 +409,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_61.png",
+					"filename": "mon_61.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -430,7 +430,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_62.png",
+					"filename": "mon_62.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -451,7 +451,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_116.png",
+					"filename": "mon_116.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -472,7 +472,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_82.png",
+					"filename": "mon_82.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -493,7 +493,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_123.png",
+					"filename": "mon_123.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -514,7 +514,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_193.png",
+					"filename": "mon_193.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -535,7 +535,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_124.png",
+					"filename": "mon_124.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -556,7 +556,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_210.png",
+					"filename": "mon_210.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -577,7 +577,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_15.png",
+					"filename": "mon_15.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -598,7 +598,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_214.png",
+					"filename": "mon_214.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -619,7 +619,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_16.png",
+					"filename": "mon_16.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -640,7 +640,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_115.png",
+					"filename": "mon_115.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -661,7 +661,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_81.png",
+					"filename": "mon_81.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -682,7 +682,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_21.png",
+					"filename": "mon_21.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -703,7 +703,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_31.png",
+					"filename": "mon_31.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -724,7 +724,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_135.png",
+					"filename": "mon_135.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -745,7 +745,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_136.png",
+					"filename": "mon_136.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -766,7 +766,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_194.png",
+					"filename": "mon_194.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -787,7 +787,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_27.png",
+					"filename": "mon_27.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -808,7 +808,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_246.png",
+					"filename": "mon_246.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -829,7 +829,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_200.png",
+					"filename": "mon_200.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -850,7 +850,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_154.png",
+					"filename": "mon_154.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -871,7 +871,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_279.png",
+					"filename": "mon_279.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -892,7 +892,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_153.png",
+					"filename": "mon_153.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -913,7 +913,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_190.png",
+					"filename": "mon_190.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -934,7 +934,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_280.png",
+					"filename": "mon_280.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -955,7 +955,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_142.png",
+					"filename": "mon_142.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -976,7 +976,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_287.png",
+					"filename": "mon_287.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -997,7 +997,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_245.png",
+					"filename": "mon_245.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1018,7 +1018,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_141.png",
+					"filename": "mon_141.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1039,7 +1039,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_67.png",
+					"filename": "mon_67.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1060,7 +1060,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_01.png",
+					"filename": "mon_1.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1081,7 +1081,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_58.png",
+					"filename": "mon_58.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1102,7 +1102,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_02.png",
+					"filename": "mon_2.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1123,7 +1123,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_57.png",
+					"filename": "mon_57.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1144,7 +1144,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_96.png",
+					"filename": "mon_96.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1165,7 +1165,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_09.png",
+					"filename": "mon_9.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1186,7 +1186,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_95.png",
+					"filename": "mon_95.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1207,7 +1207,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_10.png",
+					"filename": "mon_10.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1228,7 +1228,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_74.png",
+					"filename": "mon_74.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1249,7 +1249,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_73.png",
+					"filename": "mon_73.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1270,7 +1270,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_86.png",
+					"filename": "mon_86.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1291,7 +1291,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_68.png",
+					"filename": "mon_68.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1312,7 +1312,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_130.png",
+					"filename": "mon_130.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1333,7 +1333,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_125.png",
+					"filename": "mon_125.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1354,7 +1354,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_126.png",
+					"filename": "mon_126.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1375,7 +1375,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_129.png",
+					"filename": "mon_129.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1396,7 +1396,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_91.png",
+					"filename": "mon_91.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1417,7 +1417,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_189.png",
+					"filename": "mon_189.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1438,7 +1438,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_22.png",
+					"filename": "mon_22.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1459,7 +1459,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_231.png",
+					"filename": "mon_231.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1480,7 +1480,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_232.png",
+					"filename": "mon_232.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1501,7 +1501,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_92.png",
+					"filename": "mon_92.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1522,7 +1522,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_239.png",
+					"filename": "mon_239.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1543,7 +1543,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_240.png",
+					"filename": "mon_240.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1564,7 +1564,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_32.png",
+					"filename": "mon_32.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1585,7 +1585,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_18.png",
+					"filename": "mon_18.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1606,7 +1606,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_17.png",
+					"filename": "mon_17.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1627,7 +1627,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_29.png",
+					"filename": "mon_29.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1648,7 +1648,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_63.png",
+					"filename": "mon_63.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1669,7 +1669,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_28.png",
+					"filename": "mon_28.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1690,7 +1690,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_288.png",
+					"filename": "mon_288.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1711,7 +1711,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_147.png",
+					"filename": "mon_147.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1732,7 +1732,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_197.png",
+					"filename": "mon_197.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1753,7 +1753,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_198.png",
+					"filename": "mon_198.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1774,7 +1774,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_64.png",
+					"filename": "mon_64.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1795,7 +1795,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_48.png",
+					"filename": "mon_48.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1816,7 +1816,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_199.png",
+					"filename": "mon_199.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1837,7 +1837,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_93.png",
+					"filename": "mon_93.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1858,7 +1858,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_94.png",
+					"filename": "mon_94.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1879,7 +1879,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_221.png",
+					"filename": "mon_221.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1900,7 +1900,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_222.png",
+					"filename": "mon_222.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1921,7 +1921,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_206.png",
+					"filename": "mon_206.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1942,7 +1942,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_205.png",
+					"filename": "mon_205.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1963,7 +1963,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_253.png",
+					"filename": "mon_253.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1984,7 +1984,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_54.png",
+					"filename": "mon_54.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2005,7 +2005,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_53.png",
+					"filename": "mon_53.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2026,7 +2026,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_23.png",
+					"filename": "mon_23.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2047,7 +2047,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_52.png",
+					"filename": "mon_52.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2068,7 +2068,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_289.png",
+					"filename": "mon_289.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2089,7 +2089,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_30.png",
+					"filename": "mon_30.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2110,7 +2110,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_290.png",
+					"filename": "mon_290.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2131,7 +2131,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_51.png",
+					"filename": "mon_51.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2152,7 +2152,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_69.png",
+					"filename": "mon_69.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2173,7 +2173,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_24.png",
+					"filename": "mon_24.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2194,7 +2194,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_25.png",
+					"filename": "mon_25.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2215,7 +2215,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_272.png",
+					"filename": "mon_272.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2236,7 +2236,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_47.png",
+					"filename": "mon_47.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2257,7 +2257,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_254.png",
+					"filename": "mon_254.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2278,7 +2278,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_271.png",
+					"filename": "mon_271.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2299,7 +2299,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_26.png",
+					"filename": "mon_26.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2320,7 +2320,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_70.png",
+					"filename": "mon_70.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2341,7 +2341,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_99.png",
+					"filename": "mon_99.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2362,7 +2362,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_111.png",
+					"filename": "mon_111.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2383,7 +2383,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_185.png",
+					"filename": "mon_185.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2404,7 +2404,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_112.png",
+					"filename": "mon_112.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2425,7 +2425,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_148.png",
+					"filename": "mon_148.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2446,7 +2446,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_100.png",
+					"filename": "mon_100.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2467,7 +2467,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_39.png",
+					"filename": "mon_39.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2488,7 +2488,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_144.png",
+					"filename": "mon_144.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2509,7 +2509,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_250.png",
+					"filename": "mon_250.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2530,7 +2530,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_230.png",
+					"filename": "mon_230.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2551,7 +2551,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_40.png",
+					"filename": "mon_40.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2572,7 +2572,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_182.png",
+					"filename": "mon_182.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2593,7 +2593,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_241.png",
+					"filename": "mon_241.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2614,7 +2614,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_242.png",
+					"filename": "mon_242.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2635,7 +2635,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_181.png",
+					"filename": "mon_181.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2656,7 +2656,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_127.png",
+					"filename": "mon_127.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2677,7 +2677,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_105.png",
+					"filename": "mon_105.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2698,7 +2698,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_128.png",
+					"filename": "mon_128.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2719,7 +2719,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_87.png",
+					"filename": "mon_87.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2740,7 +2740,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_03.png",
+					"filename": "mon_3.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2761,7 +2761,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_04.png",
+					"filename": "mon_4.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2782,7 +2782,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_78.png",
+					"filename": "mon_78.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2803,7 +2803,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_229.png",
+					"filename": "mon_229.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2824,7 +2824,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_77.png",
+					"filename": "mon_77.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2845,7 +2845,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_59.png",
+					"filename": "mon_59.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2866,7 +2866,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_75.png",
+					"filename": "mon_75.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2887,7 +2887,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_76.png",
+					"filename": "mon_76.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2908,7 +2908,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_60.png",
+					"filename": "mon_60.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2929,7 +2929,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_201.png",
+					"filename": "mon_201.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2950,7 +2950,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_202.png",
+					"filename": "mon_202.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2971,7 +2971,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_191.png",
+					"filename": "mon_191.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -2992,7 +2992,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_186.png",
+					"filename": "mon_186.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -3013,7 +3013,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_172.png",
+					"filename": "mon_172.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -3034,7 +3034,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_131.png",
+					"filename": "mon_131.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -3055,7 +3055,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_173.png",
+					"filename": "mon_173.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -3076,7 +3076,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_174.png",
+					"filename": "mon_174.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -3097,7 +3097,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_249.png",
+					"filename": "mon_249.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -3118,7 +3118,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_119.png",
+					"filename": "mon_119.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -3139,7 +3139,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_118.png",
+					"filename": "mon_118.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -3160,7 +3160,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_132.png",
+					"filename": "mon_132.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -3181,7 +3181,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_257.png",
+					"filename": "mon_257.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -3202,7 +3202,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_143.png",
+					"filename": "mon_143.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -3223,7 +3223,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_156.png",
+					"filename": "mon_156.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -3244,7 +3244,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_155.png",
+					"filename": "mon_155.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -3265,7 +3265,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_295.png",
+					"filename": "mon_295.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -3286,7 +3286,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_296.png",
+					"filename": "mon_296.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -3307,7 +3307,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_258.png",
+					"filename": "mon_258.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -3328,7 +3328,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_307.png",
+					"filename": "mon_307.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -3349,7 +3349,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_171.png",
+					"filename": "mon_171.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -3370,7 +3370,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_120.png",
+					"filename": "mon_120.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -3391,7 +3391,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_223.png",
+					"filename": "mon_223.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -3412,7 +3412,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_192.png",
+					"filename": "mon_192.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -3433,7 +3433,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_180.png",
+					"filename": "mon_180.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -3454,7 +3454,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_106.png",
+					"filename": "mon_106.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -3475,7 +3475,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_233.png",
+					"filename": "mon_233.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -3496,7 +3496,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_234.png",
+					"filename": "mon_234.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -3517,7 +3517,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_83.png",
+					"filename": "mon_83.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -3538,7 +3538,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_224.png",
+					"filename": "mon_224.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -3559,7 +3559,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_117.png",
+					"filename": "mon_117.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -3580,7 +3580,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_226.png",
+					"filename": "mon_226.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -3601,7 +3601,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_179.png",
+					"filename": "mon_179.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -3622,7 +3622,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_84.png",
+					"filename": "mon_84.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -3643,7 +3643,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_88.png",
+					"filename": "mon_88.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -3664,7 +3664,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_225.png",
+					"filename": "mon_225.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -3685,7 +3685,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_138.png",
+					"filename": "mon_138.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -3706,7 +3706,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_308.png",
+					"filename": "mon_308.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -3727,7 +3727,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_157.png",
+					"filename": "mon_157.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -3748,7 +3748,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_137.png",
+					"filename": "mon_137.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -3769,7 +3769,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_41.png",
+					"filename": "mon_41.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -3790,7 +3790,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_50.png",
+					"filename": "mon_50.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -3811,7 +3811,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_35.png",
+					"filename": "mon_35.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -3832,7 +3832,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_275.png",
+					"filename": "mon_275.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -3853,7 +3853,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_12.png",
+					"filename": "mon_12.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -3874,7 +3874,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_71.png",
+					"filename": "mon_71.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -3895,7 +3895,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_215.png",
+					"filename": "mon_215.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -3916,7 +3916,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_36.png",
+					"filename": "mon_36.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -3937,7 +3937,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_72.png",
+					"filename": "mon_72.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -3958,7 +3958,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_216.png",
+					"filename": "mon_216.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -3979,7 +3979,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_42.png",
+					"filename": "mon_42.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -4000,7 +4000,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_11.png",
+					"filename": "mon_11.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -4021,7 +4021,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_227.png",
+					"filename": "mon_227.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -4042,7 +4042,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_228.png",
+					"filename": "mon_228.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -4063,7 +4063,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_235.png",
+					"filename": "mon_235.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -4084,7 +4084,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_243.png",
+					"filename": "mon_243.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -4105,7 +4105,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_177.png",
+					"filename": "mon_177.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -4126,7 +4126,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_238.png",
+					"filename": "mon_238.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -4147,7 +4147,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_236.png",
+					"filename": "mon_236.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -4168,7 +4168,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_237.png",
+					"filename": "mon_237.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -4189,7 +4189,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_244.png",
+					"filename": "mon_244.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -4210,7 +4210,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_158.png",
+					"filename": "mon_158.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -4231,7 +4231,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_113.png",
+					"filename": "mon_113.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -4252,7 +4252,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_298.png",
+					"filename": "mon_298.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -4273,7 +4273,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_178.png",
+					"filename": "mon_178.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -4294,7 +4294,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_114.png",
+					"filename": "mon_114.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -4315,7 +4315,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_56.png",
+					"filename": "mon_56.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -4336,7 +4336,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_247.png",
+					"filename": "mon_247.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -4357,7 +4357,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_134.png",
+					"filename": "mon_134.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -4378,7 +4378,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_263.png",
+					"filename": "mon_263.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -4399,7 +4399,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_133.png",
+					"filename": "mon_133.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -4420,7 +4420,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_264.png",
+					"filename": "mon_264.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -4441,7 +4441,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_65.png",
+					"filename": "mon_65.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -4462,7 +4462,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_256.png",
+					"filename": "mon_256.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -4483,7 +4483,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_267.png",
+					"filename": "mon_267.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -4504,7 +4504,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_49.png",
+					"filename": "mon_49.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -4525,7 +4525,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_55.png",
+					"filename": "mon_55.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -4546,7 +4546,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_268.png",
+					"filename": "mon_268.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -4567,7 +4567,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_276.png",
+					"filename": "mon_276.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -4588,7 +4588,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_255.png",
+					"filename": "mon_255.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -4609,7 +4609,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_207.png",
+					"filename": "mon_207.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -4630,7 +4630,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_283.png",
+					"filename": "mon_283.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -4651,7 +4651,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_284.png",
+					"filename": "mon_284.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -4672,7 +4672,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_208.png",
+					"filename": "mon_208.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -4693,7 +4693,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_292.png",
+					"filename": "mon_292.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -4714,7 +4714,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_211.png",
+					"filename": "mon_211.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -4735,7 +4735,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_291.png",
+					"filename": "mon_291.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -4756,7 +4756,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_66.png",
+					"filename": "mon_66.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -4777,7 +4777,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_20.png",
+					"filename": "mon_20.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -4798,7 +4798,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_101.png",
+					"filename": "mon_101.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -4819,7 +4819,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_107.png",
+					"filename": "mon_107.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -4840,7 +4840,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_261.png",
+					"filename": "mon_261.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -4861,7 +4861,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_79.png",
+					"filename": "mon_79.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -4882,7 +4882,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_108.png",
+					"filename": "mon_108.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -4903,7 +4903,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_80.png",
+					"filename": "mon_80.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -4924,7 +4924,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_212.png",
+					"filename": "mon_212.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -4945,7 +4945,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_248.png",
+					"filename": "mon_248.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -4966,7 +4966,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_217.png",
+					"filename": "mon_217.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -4987,7 +4987,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_19.png",
+					"filename": "mon_19.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -5008,7 +5008,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_46.png",
+					"filename": "mon_46.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -5029,7 +5029,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_149.png",
+					"filename": "mon_149.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -5050,7 +5050,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_285.png",
+					"filename": "mon_285.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -5071,7 +5071,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_150.png",
+					"filename": "mon_150.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -5092,7 +5092,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_304.png",
+					"filename": "mon_304.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -5113,7 +5113,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_98.png",
+					"filename": "mon_98.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -5134,7 +5134,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_303.png",
+					"filename": "mon_303.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -5155,7 +5155,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_297.png",
+					"filename": "mon_297.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -5176,7 +5176,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_286.png",
+					"filename": "mon_286.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -5197,7 +5197,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_97.png",
+					"filename": "mon_97.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -5218,7 +5218,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_06.png",
+					"filename": "mon_6.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -5239,7 +5239,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_139.png",
+					"filename": "mon_139.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -5260,7 +5260,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_05.png",
+					"filename": "mon_5.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -5281,7 +5281,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_196.png",
+					"filename": "mon_196.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -5302,7 +5302,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_140.png",
+					"filename": "mon_140.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -5323,7 +5323,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_102.png",
+					"filename": "mon_102.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -5344,7 +5344,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_218.png",
+					"filename": "mon_218.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -5365,7 +5365,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_08.png",
+					"filename": "mon_8.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -5386,7 +5386,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_195.png",
+					"filename": "mon_195.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -5407,7 +5407,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_145.png",
+					"filename": "mon_145.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -5428,7 +5428,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_07.png",
+					"filename": "mon_7.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -5449,7 +5449,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_14.png",
+					"filename": "mon_14.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -5470,7 +5470,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_188.png",
+					"filename": "mon_188.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -5491,7 +5491,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_259.png",
+					"filename": "mon_259.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -5512,7 +5512,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_265.png",
+					"filename": "mon_265.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -5533,7 +5533,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_252.png",
+					"filename": "mon_252.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -5554,7 +5554,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_13.png",
+					"filename": "mon_13.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -5575,7 +5575,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_45.png",
+					"filename": "mon_45.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -5596,7 +5596,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_305.png",
+					"filename": "mon_305.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -5617,7 +5617,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_262.png",
+					"filename": "mon_262.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -5638,7 +5638,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_187.png",
+					"filename": "mon_187.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -5659,7 +5659,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_260.png",
+					"filename": "mon_260.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -5680,7 +5680,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_266.png",
+					"filename": "mon_266.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -5701,7 +5701,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_251.png",
+					"filename": "mon_251.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -5722,7 +5722,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_110.png",
+					"filename": "mon_110.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -5743,7 +5743,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_301.png",
+					"filename": "mon_301.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -5764,7 +5764,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_281.png",
+					"filename": "mon_281.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -5785,7 +5785,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_309.png",
+					"filename": "mon_309.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -5806,7 +5806,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_300.png",
+					"filename": "mon_300.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -5827,7 +5827,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_299.png",
+					"filename": "mon_299.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -5848,7 +5848,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_146.png",
+					"filename": "mon_146.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -5869,7 +5869,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_109.png",
+					"filename": "mon_109.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -5890,7 +5890,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_159.png",
+					"filename": "mon_159.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -5911,7 +5911,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_310.png",
+					"filename": "mon_310.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -5932,7 +5932,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_37.png",
+					"filename": "mon_37.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -5953,7 +5953,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_269.png",
+					"filename": "mon_269.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -5974,7 +5974,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_282.png",
+					"filename": "mon_282.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -5995,7 +5995,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_270.png",
+					"filename": "mon_270.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -6016,7 +6016,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_160.png",
+					"filename": "mon_160.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -6037,7 +6037,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_204.png",
+					"filename": "mon_204.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -6058,7 +6058,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_219.png",
+					"filename": "mon_219.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -6079,7 +6079,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_122.png",
+					"filename": "mon_122.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -6100,7 +6100,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_220.png",
+					"filename": "mon_220.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -6121,7 +6121,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_183.png",
+					"filename": "mon_183.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -6142,7 +6142,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_121.png",
+					"filename": "mon_121.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -6163,7 +6163,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_306.png",
+					"filename": "mon_306.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -6184,7 +6184,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_184.png",
+					"filename": "mon_184.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -6205,7 +6205,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_203.png",
+					"filename": "mon_203.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -6226,7 +6226,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_273.png",
+					"filename": "mon_273.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -6247,7 +6247,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_38.png",
+					"filename": "mon_38.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -6268,7 +6268,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_302.png",
+					"filename": "mon_302.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -6289,7 +6289,7 @@
 					}
 				},
 				{
-					"filename": "kanto copy_274.png",
+					"filename": "mon_274.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {

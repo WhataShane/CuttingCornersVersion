@@ -6,11 +6,29 @@ if (window.innerWidth > 390) {
 
 var height = window.innerHeight;
 
+var FrameNamesArray = []
+var pokeArray = []
+var collisionOccured = 0
+var scale = 3.5;
+var walkSpeed = 7;
+var tick = 0;
+var currentMon = 0;
+
+var lane = width / 4;
+var centerOfLane = lane / 2;
+var xPosLane1 = centerOfLane;
+
 var config = {
     type: Phaser.Canvas,
     width: width,
     height: height,
     pixelArt: true,
+    physics: {
+      default: 'arcade',
+      arcade: {
+        debug: true
+      }
+    },
     scene: {
         preload: preload,
         create: create,
@@ -61,17 +79,31 @@ function preload ()
 function create ()
 {
 
+  var tick = this.time.now;
+
   this.cameras.main.backgroundColor.setTo(0, 233, 75)
 
-  var frameNames = this.anims.generateFrameNames('mons', {
-                   start: 19, end: 20,
-                   prefix: 'images/monsR/mon_', suffix: '.png'
-               });
 
-  this.anims.create({ key: 'walk',
-                      frames: frameNames,
-                      frameRate: 10,
-                      repeat: -1 });
+  //hardcoded in 301, 301 b/c there are 300 total frames (150 Pokemon, two frames per Pokemon). Each Pokemon has two sequential frames.
+  // make that 301 + 9, for frames skipped in between
+  for (var frame = 1; frame < 301 + 9; frame+=2){
+    if (!(frame > 160 && frame < 171)){
+      FrameNamesArray.push(
+        this.anims.generateFrameNames('mons', {
+                         start: frame, end: frame+1,
+                         prefix: 'mon_', suffix: '.png'
+                     })
+      )
+    }
+  }
+
+  for (var pkmn = 0; pkmn < FrameNamesArray.length; pkmn++ ){
+    this.anims.create({ key: 'walk_' + (pkmn + 1),
+                        frames: FrameNamesArray[pkmn],
+                        frameRate: walkSpeed,
+                        repeat: -1 });
+
+  }
 
   this.anims.create({
           key: 'roll',
@@ -121,30 +153,71 @@ function create ()
         remainderGrassy.width = window.innerWidth;
       }
 
-     ball = this.add.sprite(50, height - 40, 'ball1').setScale(.10).play('roll');
+     ball = this.physics.add.sprite(50, height - 40, 'ball1').setScale(.10).play('roll').setCollideWorldBounds(true);
+
+
 
      var graphics = this.add.graphics({ fillStyle: { color: 0x0000ff } });
 
-     var lane = width / 4;
-     var centerLane = lane / 2;
 
-     for (var x = 0; x < width; x+=lane) {
-       graphics.fillRectShape(new Phaser.Geom.Rectangle(centerLane+x, 0, 50, 50));
+
+
+
+     var pngCounter = 1;
+
+     for (var x = 1; x < 151; x++){
+         if (pngCounter == 161){
+           pngCounter = 171
+         }
+         pokeArray.push(this.physics.add.sprite(xPosLane1, -60, 'mons', 'mon_'+pngCounter+'.png').setScale(scale).play('walk_'+x).setOrigin(0.5﻿﻿))
+         pngCounter += 2;
      }
 
 
 
-    var scale = 4;
-    bulba = this.add.sprite(40, 40, 'mons', 'mon_19.png').setScale(scale).play('walk');
+     for (var monster = 0; monster < pokeArray.length; monster++){
+            this.physics.add.overlap(ball, pokeArray[monster], col);
+
+     }
+
 
 }
 
+function col(ball, creature){
+  console.log("Remains in the PokeDex!");
+  creature.destroy();
+}
 
 
-function update ()
+function update (time, delta)
 {
 
-  bulba.y += 5;
+  var randTime = Math.floor((Math.random()*6000)+200);
+
+  if (time > tick + randTime) {
+    var randLane = Math.floor((Math.random()*4)+1);
+
+    if(randLane == 1){
+      pokeArray[currentMon].x = xPosLane1;
+    }
+    else if (randLane == 2) {
+      pokeArray[currentMon].x = xPosLane1 + lane;
+    }
+    else if  (randLane == 3){
+      pokeArray[currentMon].x = xPosLane1 + lane + lane;
+    }
+    else if  (randLane == 3){
+      pokeArray[currentMon].x = xPosLane1 + lane + lane + lane;
+    }
+
+    var randSpeed = Math.floor((Math.random()*11)+3);
+    pokeArray[currentMon].y += 80;
+
+    tick = time;
+    currentMon++;
+  }
+
+
 
 
   var grassSpeed = 4;
@@ -167,7 +240,7 @@ function update ()
 
   cursors = this.input.keyboard.createCursorKeys();
 
-  if (cursors.left.isDown && (ball.x >21)) {
+  if (cursors.left.isDown && (ball.x >22)) {
     ball.x -= 7;
   }
 

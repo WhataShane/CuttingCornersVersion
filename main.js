@@ -8,8 +8,8 @@ var height = window.innerHeight;
 
 var FrameNamesArray = []
 var pokeArray = []
-var collisionOccured = 0
-var scale = 3.5;
+var randomSpeeds = []
+var scale = 2.7;
 var walkSpeed = 7;
 var tick = 0;
 var currentMon = 0;
@@ -26,7 +26,7 @@ var config = {
     physics: {
       default: 'arcade',
       arcade: {
-        debug: true
+        debug: false
       }
     },
     scene: {
@@ -141,8 +141,6 @@ function create ()
           repeat: -1
       });
 
-
-
       grassy = this.add.sprite(0, 0, 'grass').setOrigin(0, 0);
       offstageGrassy = this.add.sprite(0, -494, 'grass').setOrigin(0, 0);
       remainderGrassy = this.add.sprite(0, 494, 'grass').setOrigin(0, 0);
@@ -153,15 +151,11 @@ function create ()
         remainderGrassy.width = window.innerWidth;
       }
 
-     ball = this.physics.add.sprite(50, height - 40, 'ball1').setScale(.10).play('roll').setCollideWorldBounds(true);
-
+     ball = this.physics.add.sprite(50, height - 40, 'ball1').setScale(.085).play('roll').setCollideWorldBounds(true);
+//.1 dynamax
 
 
      var graphics = this.add.graphics({ fillStyle: { color: 0x0000ff } });
-
-
-
-
 
      var pngCounter = 1;
 
@@ -169,7 +163,23 @@ function create ()
          if (pngCounter == 161){
            pngCounter = 171
          }
-         pokeArray.push(this.physics.add.sprite(xPosLane1, -60, 'mons', 'mon_'+pngCounter+'.png').setScale(scale).play('walk_'+x).setOrigin(0.5﻿﻿))
+
+         var randLane = Math.floor((Math.random()*4)+1);
+         var randLaneXPos = 0
+         if(randLane == 1){
+           randLaneXPos = xPosLane1;
+         }
+         else if (randLane == 2) {
+           randLaneXPos = xPosLane1 + lane;
+         }
+         else if  (randLane == 3){
+           randLaneXPos = xPosLane1 + lane + lane;
+         }
+         else if  (randLane == 4){
+           randLaneXPos = xPosLane1 + lane + lane + lane;
+         }
+
+         pokeArray.push(this.physics.add.sprite(randLaneXPos, -60, 'mons', 'mon_'+pngCounter+'.png').setScale(scale).play('walk_'+x).setOrigin(0.5﻿﻿))
          pngCounter += 2;
      }
 
@@ -177,9 +187,19 @@ function create ()
 
      for (var monster = 0; monster < pokeArray.length; monster++){
             this.physics.add.overlap(ball, pokeArray[monster], col);
-
      }
 
+     for (var x = 0; x < pokeArray.length; x++){
+        randomSpeeds.push(Math.floor((Math.random()*3)+4))
+     }
+
+     for (var x = 4; x < pokeArray.length; x++){
+        randomSpeeds[x]= (Math.floor((Math.random()*5)+9))
+     }
+
+     for (var x = 10; x < pokeArray.length; x++){
+        randomSpeeds[x]= (Math.floor((Math.random()*4)+7))
+     }
 
 }
 
@@ -192,31 +212,17 @@ function col(ball, creature){
 function update (time, delta)
 {
 
-  var randTime = Math.floor((Math.random()*6000)+200);
 
-  if (time > tick + randTime) {
-    var randLane = Math.floor((Math.random()*4)+1);
+  pokeArray[currentMon].y += randomSpeeds[currentMon]
 
-    if(randLane == 1){
-      pokeArray[currentMon].x = xPosLane1;
-    }
-    else if (randLane == 2) {
-      pokeArray[currentMon].x = xPosLane1 + lane;
-    }
-    else if  (randLane == 3){
-      pokeArray[currentMon].x = xPosLane1 + lane + lane;
-    }
-    else if  (randLane == 3){
-      pokeArray[currentMon].x = xPosLane1 + lane + lane + lane;
-    }
-
-    var randSpeed = Math.floor((Math.random()*11)+3);
-    pokeArray[currentMon].y += 80;
-
+  if (time > tick + 1000 && pokeArray[currentMon].y > height + 50) {
     tick = time;
-    currentMon++;
-  }
 
+    if (currentMon < pokeArray.length - 1){
+      currentMon++;
+    }
+
+  }
 
 
 

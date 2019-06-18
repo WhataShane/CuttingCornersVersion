@@ -9,7 +9,7 @@ var height = window.innerHeight;
 var FrameNamesArray = []
 var pokeArray = []
 var randomSpeeds = []
-var scale = 2.7;
+var scale = 2.5;
 var walkSpeed = 7;
 var tick = 0;
 var currentMon = 0;
@@ -27,7 +27,7 @@ var config = {
       default: 'arcade',
       arcade: {
         debug: false
-      }
+      },
     },
     scene: {
         preload: preload,
@@ -79,7 +79,11 @@ function preload ()
 function create ()
 {
 
+ this.physics.world.setBoundsCollision(false,false,false,false)
+
+
   var tick = this.time.now;
+  cursors = this.input.keyboard.createCursorKeys();
 
   this.cameras.main.backgroundColor.setTo(0, 233, 75)
 
@@ -151,7 +155,7 @@ function create ()
         remainderGrassy.width = window.innerWidth;
       }
 
-     ball = this.physics.add.sprite(50, height - 40, 'ball1').setScale(.085).play('roll').setCollideWorldBounds(true);
+     ball = this.physics.add.sprite(50, height - 40, 'ball1').setScale(.055).play('roll').setCollideWorldBounds(true);
 //.1 dynamax
 
 
@@ -179,7 +183,7 @@ function create ()
            randLaneXPos = xPosLane1 + lane + lane + lane;
          }
 
-         pokeArray.push(this.physics.add.sprite(randLaneXPos, -60, 'mons', 'mon_'+pngCounter+'.png').setScale(scale).play('walk_'+x).setOrigin(0.5﻿﻿))
+         pokeArray.push(this.physics.add.sprite(randLaneXPos, -60, 'mons', 'mon_'+pngCounter+'.png').setCollideWorldBounds(false).setScale(scale).play('walk_'+x).setOrigin(0.5﻿﻿))
          pngCounter += 2;
      }
 
@@ -190,16 +194,22 @@ function create ()
      }
 
      for (var x = 0; x < pokeArray.length; x++){
-        randomSpeeds.push(Math.floor((Math.random()*3)+4))
+        randomSpeeds.push(Math.floor((Math.random()*5)+3))
      }
 
      for (var x = 4; x < pokeArray.length; x++){
-        randomSpeeds[x]= (Math.floor((Math.random()*5)+9))
+        randomSpeeds[x]= (Math.floor((Math.random()*7)+3))
      }
 
      for (var x = 10; x < pokeArray.length; x++){
-        randomSpeeds[x]= (Math.floor((Math.random()*4)+7))
+        randomSpeeds[x]= (Math.floor((Math.random()*9)+3))
      }
+
+
+     this.time.addEvent({ delay: 1000,
+                          callback: onEvent,
+                          callbackScope: this,
+                          loop: true });
 
 }
 
@@ -208,12 +218,25 @@ function col(ball, creature){
   creature.destroy();
 }
 
+function onEvent(){
+  this.physics.moveTo(pokeArray[0],xPosLane1,height+30, 400)
+}
+
 
 function update (time, delta)
 {
 
+/*  if ((currentMon + 6) < pokeArray.length){
 
-  pokeArray[currentMon].y += randomSpeeds[currentMon]
+
+//  pokeArray[currentMon].y += randomSpeeds[currentMon]
+//  pokeArray[currentMon+1].y += randomSpeeds[currentMon+1]
+//  pokeArray[currentMon+2].y += randomSpeeds[currentMon+2]
+//  pokeArray[currentMon+3].y += randomSpeeds[currentMon+3]
+//  pokeArray[currentMon+4].y += randomSpeeds[currentMon+4]
+  pokeArray[currentMon+5].y += randomSpeeds[currentMon+5]
+  pokeArray[currentMon+6].y += randomSpeeds[currentMon+6]
+  pokeArray[currentMon+7].y += randomSpeeds[currentMon+7]
 
   if (time > tick + 1000 && pokeArray[currentMon].y > height + 50) {
     tick = time;
@@ -224,9 +247,11 @@ function update (time, delta)
 
   }
 
+}
+*/
 
 
-  var grassSpeed = 4;
+  var grassSpeed = 1.2;
   grassy.y += grassSpeed;
   offstageGrassy.y += grassSpeed;
   remainderGrassy.y += grassSpeed;
@@ -236,21 +261,17 @@ function update (time, delta)
   }
 
 
-    if (offstageGrassy.y > window.innerHeight) {
-      offstageGrassy.y = -494;
-    }
+  if (offstageGrassy.y > window.innerHeight) {
+    offstageGrassy.y = -494;
+  }
 
-    if (grassy.y > window.innerHeight) {
-      grassy.y = -494;
-    }
-
-  cursors = this.input.keyboard.createCursorKeys();
+  if (grassy.y > window.innerHeight) {
+    grassy.y = -494;
+  }
 
   if (cursors.left.isDown && (ball.x >22)) {
     ball.x -= 7;
   }
-
-
 
   if (cursors.right.isDown && (ball.x < width-21)) {
     ball.x += 7;

@@ -12,7 +12,7 @@ var randomSpeeds = []
 var scale = 2.5;
 var walkSpeed = 7;
 var tick = 0;
-var currentMon = 148;
+var currentMon = 0;
 var score = 0
 var scoreText
 var begun = false

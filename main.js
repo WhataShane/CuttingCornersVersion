@@ -87,7 +87,7 @@ function create ()
 {
 
   this.physics.world.setBoundsCollision(false,false,false,false)
-
+  this.input.addPointer(3);
   cursors = this.input.keyboard.createCursorKeys();
   aKey = this.input.keyboard.addKey('A');
   dKey = this.input.keyboard.addKey('D');
@@ -499,11 +499,14 @@ function update (time, delta)
 
 
   if (pointer.isDown) {
-    if (pointer.x < ball.x) {
+
+//if pointer is to left of ball
+    if ((pointer.x < ball.x) && (ball.x > 0)) {
       ball.x -= 4;
     }
 
-    if (pointer.x > ball.x) {
+//if pointer is to right of ball
+    if ((pointer.x > ball.x) && (ball.x < width-10)) {
       ball.x += 4;
     }
 

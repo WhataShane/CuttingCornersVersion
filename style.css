@@ -12,6 +12,7 @@ body {
 
 
 .invisiText {
+  display: none;
   position:absolute;
   opacity:0;
   cursor: default;
@@ -23,9 +24,18 @@ body {
   position: absolute;
   top:70px;
   z-index: 2;
-  height:200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .log2 {
   height:200px;
+}
+
+.instro {
+  padding-top:50px;
+  color:white;
+  width:300px;
+  text-align: center;
 }

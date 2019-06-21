@@ -16,6 +16,7 @@ var currentMon = 0;
 var score = 0
 var scoreText
 var begun = false
+var faded = false
 
 
 var lane = width / 4;
@@ -489,6 +490,10 @@ function update (time, delta)
   if ((cursors.right.isDown || cursors.left.isDown || aKey.isDown || dKey.isDown || this.input.activePointer.isDown) && begun == false) {
 
     begun = true
+    if (faded == false){
+      $('.log').fadeOut()
+      faded = true
+    }
     this.time.addEvent({ delay: 250,
                          callback: onEvent,
                          callbackScope: this,
@@ -507,6 +512,7 @@ function update (time, delta)
 //if pointer is to right of ball
     if ((this.input.activePointer.x > ball.x) && (ball.x < width-10)) {
       ball.x += 4;
+
     }
 
 
@@ -535,10 +541,20 @@ function update (time, delta)
 
   if ((cursors.left.isDown && (ball.x >10)) || ((aKey.isDown && (ball.x >10))) ) {
     ball.x -= 4;
+
+    if (faded == false){
+      $('.log').fadeOut()
+      faded = true
+    }
   }
 
   if ((cursors.right.isDown && (ball.x < width-10)) || (dKey.isDown && (ball.x < width-10)) ) {
     ball.x += 4;
+
+    if (faded == false){
+      $('.log').fadeOut()
+      faded = true
+    }
   }
 
 
@@ -547,18 +563,15 @@ function update (time, delta)
 }
 
 $(document).on('click', 'canvas', function() {
+  if (faded == false){
     $('.log').fadeOut()
+    faded = true
+  }
 })
 
 $(document).on('touchstart', 'canvas', function() {
-  console.log('yes')
+  if (faded == false){
     $('.log').fadeOut()
-})
-
-
-$(window).keypress(function(e) {
-    console.log('yes')
-  if (e.keyCode == 0 || e.keyCode == 32) {
-    $('.log').fadeOut()
+    faded = true
   }
-});
+})

@@ -500,12 +500,12 @@ function update (time, delta)
   if (this.input.activePointer.isDown) {
 
 //if pointer is to left of ball
-    if ((this.input.activePointer.x < ball.x) && (ball.x > 0)) {
+    if ((this.input.activePointer.x < (width/2)) && (ball.x > 0)) {
       ball.x -= 4;
     }
 
 //if pointer is to right of ball
-    if ((this.input.activePointer.x > ball.x) && (ball.x < width-10)) {
+    if ((this.input.activePointer.x > (width/2)) && (ball.x < width-10)) {
       ball.x += 4;
     }
 

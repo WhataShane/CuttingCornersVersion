@@ -16,7 +16,7 @@ var currentMon = 0;
 var score = 0
 var scoreText
 var begun = false
-var pointer
+
 
 var lane = width / 4;
 var centerOfLane = lane / 2;
@@ -87,11 +87,10 @@ function create ()
 {
 
   this.physics.world.setBoundsCollision(false,false,false,false)
-  this.input.addPointer(3);
+  //this.input.addPointer(3);
   cursors = this.input.keyboard.createCursorKeys();
   aKey = this.input.keyboard.addKey('A');
   dKey = this.input.keyboard.addKey('D');
-  pointer = this.input.activePointer;
   this.cameras.main.backgroundColor.setTo(0, 233, 75)
 
 
@@ -487,7 +486,7 @@ function fourteen(){
 function update (time, delta)
 {
 
-  if ((cursors.right.isDown || cursors.left.isDown || aKey.isDown || dKey.isDown || pointer.isDown) && begun == false) {
+  if ((cursors.right.isDown || cursors.left.isDown || aKey.isDown || dKey.isDown || this.input.activePointer.isDown) && begun == false) {
 
     begun = true
     this.time.addEvent({ delay: 250,
@@ -498,15 +497,15 @@ function update (time, delta)
   }
 
 
-  if (pointer.isDown) {
+  if (this.input.activePointer.isDown) {
 
 //if pointer is to left of ball
-    if ((pointer.x < ball.x) && (ball.x > 0)) {
+    if ((this.input.activePointer.x < ball.x) && (ball.x > 0)) {
       ball.x -= 4;
     }
 
 //if pointer is to right of ball
-    if ((pointer.x > ball.x) && (ball.x < width-10)) {
+    if ((this.input.activePointer.x > ball.x) && (ball.x < width-10)) {
       ball.x += 4;
     }
 

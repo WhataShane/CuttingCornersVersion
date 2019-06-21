@@ -16,6 +16,7 @@ var currentMon = 0;
 var score = 0
 var scoreText
 var begun = false
+var pointer
 
 var lane = width / 4;
 var centerOfLane = lane / 2;
@@ -85,14 +86,12 @@ function preload ()
 function create ()
 {
 
- this.physics.world.setBoundsCollision(false,false,false,false)
+  this.physics.world.setBoundsCollision(false,false,false,false)
 
-
-  var tick = this.time.now;
   cursors = this.input.keyboard.createCursorKeys();
   aKey = this.input.keyboard.addKey('A');
   dKey = this.input.keyboard.addKey('D');
-
+  pointer = this.input.activePointer;
   this.cameras.main.backgroundColor.setTo(0, 233, 75)
 
 
@@ -488,7 +487,7 @@ function fourteen(){
 function update (time, delta)
 {
 
-  if ((cursors.right.isDown || cursors.left.isDown || aKey.isDown || dKey.isDown) && begun == false) {
+  if ((cursors.right.isDown || cursors.left.isDown || aKey.isDown || dKey.isDown || pointer.isDown) && begun == false) {
 
     begun = true
     this.time.addEvent({ delay: 250,
@@ -499,7 +498,20 @@ function update (time, delta)
   }
 
 
+  if (pointer.isDown) {
+    if (pointer.x < ball.x) {
+      ball.x -= 4;
+    }
 
+    if (pointer.x > ball.x) {
+      ball.x += 4;
+    }
+
+
+    //var touchX = pointer.x;
+
+  //  this.physics.moveTo(ball,touchX, ball.y, 100)
+}
 
   var grassSpeed = 1.2;
   grassy.y += grassSpeed;

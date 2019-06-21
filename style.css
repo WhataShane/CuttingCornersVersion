@@ -7,6 +7,7 @@ body {
   align-items: center;
   overflow-x: hidden;
   overflow-y: hidden;
+  background-color: black;
 }
 
 
@@ -16,4 +17,11 @@ body {
   cursor: default;
   user-select: none;
   top:-1000px;
+}
+
+.log {
+  position: absolute;
+  top:70px;
+  z-index: 2;
+  height:200px;
 }

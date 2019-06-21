@@ -87,7 +87,7 @@ function create ()
 {
 
   this.physics.world.setBoundsCollision(false,false,false,false)
-  //this.input.addPointer(3);
+  this.input.addPointer(3);
   cursors = this.input.keyboard.createCursorKeys();
   aKey = this.input.keyboard.addKey('A');
   dKey = this.input.keyboard.addKey('D');

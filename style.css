@@ -34,8 +34,16 @@ body {
 }
 
 .instro {
-  padding-top:50px;
+  font-family: 'Source Sans Pro';
+  font-size: 1.1rem;
+  padding-top:10px;
   color:white;
-  width:300px;
+  width:350px;
   text-align: center;
+
+text-shadow:
+ -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+   1px 1px 0 #000;
 }

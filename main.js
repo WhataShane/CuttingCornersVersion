@@ -12,7 +12,7 @@ var randomSpeeds = []
 var scale = 2.5;
 var walkSpeed = 7;
 var tick = 0;
-var currentMon = 0;
+var currentMon = 148;
 var score = 0
 var scoreText
 var begun = false
@@ -425,7 +425,7 @@ ending6.destroy()
 
 function ten(){
 ending8.destroy()
-   ending9 = this.add.text((width/2), (height/2) - 30, "Shoo, off with you.\nGame's over. You got Kanto.\nToo hard to code\nthe rest of 'em.", { fontFamily: '"Press Start 2P"', fontSize: 11, stroke:"#000000", strokeThickness:2, align:"center"}).setOrigin(.5)
+   ending9 = this.add.text((width/2), (height/2) - 30, "Shoo, off with you.\nGame's over. You got Kanto.\nToo hard to code the rest of 'em.\nIt's just one kid at a desk here.", { fontFamily: '"Press Start 2P"', fontSize: 11, stroke:"#000000", strokeThickness:2, align:"center"}).setOrigin(.5)
 
   this.time.addEvent({ delay: 7000,
                        callback: eleven,

@@ -1,7 +1,16 @@
 body {
+  font-family: 'Press Start 2P', cursive;
   margin:0px;
   padding:0px;
   display:flex;
   justify-content: center;
   align-items: center;
+}
+
+
+.invisiText {
+  position:absolute;
+  opacity:0;
+  cursor: default;
+  user-select: none;
 }

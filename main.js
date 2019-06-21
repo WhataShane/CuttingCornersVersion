@@ -13,10 +13,16 @@ var scale = 2.5;
 var walkSpeed = 7;
 var tick = 0;
 var currentMon = 0;
+var score = 0
+var scoreText
+var begun = false
 
 var lane = width / 4;
 var centerOfLane = lane / 2;
 var xPosLane1 = centerOfLane;
+var xPosLane2 = centerOfLane +lane;
+var xPosLane3 = centerOfLane +lane+lane;
+var xPosLane4 = centerOfLane +lane+lane+lane;
 
 var config = {
     type: Phaser.Canvas,
@@ -84,6 +90,8 @@ function create ()
 
   var tick = this.time.now;
   cursors = this.input.keyboard.createCursorKeys();
+  aKey = this.input.keyboard.addKey('A');
+  dKey = this.input.keyboard.addKey('D');
 
   this.cameras.main.backgroundColor.setTo(0, 233, 75)
 
@@ -156,7 +164,8 @@ function create ()
       }
 
      ball = this.physics.add.sprite(50, height - 40, 'ball1').setScale(.055).play('roll').setCollideWorldBounds(true);
-//.1 dynamax
+//1 dy
+//.055 normal
 
 
      var graphics = this.add.graphics({ fillStyle: { color: 0x0000ff } });
@@ -174,13 +183,13 @@ function create ()
            randLaneXPos = xPosLane1;
          }
          else if (randLane == 2) {
-           randLaneXPos = xPosLane1 + lane;
+           randLaneXPos = xPosLane2;
          }
          else if  (randLane == 3){
-           randLaneXPos = xPosLane1 + lane + lane;
+           randLaneXPos = xPosLane3;
          }
          else if  (randLane == 4){
-           randLaneXPos = xPosLane1 + lane + lane + lane;
+           randLaneXPos = xPosLane4;
          }
 
          pokeArray.push(this.physics.add.sprite(randLaneXPos, -60, 'mons', 'mon_'+pngCounter+'.png').setCollideWorldBounds(false).setScale(scale).play('walk_'+x).setOrigin(0.5﻿﻿))
@@ -189,66 +198,307 @@ function create ()
 
 
 
+     scoreText = this.add.text(10, 10, score+'/807 will return', { fontFamily: '"Press Start 2P"', stroke:"#000000", strokeThickness:2 })
+
      for (var monster = 0; monster < pokeArray.length; monster++){
-            this.physics.add.overlap(ball, pokeArray[monster], col);
+            this.physics.add.overlap(ball, pokeArray[monster], col, function(){return true}, this);
      }
 
      for (var x = 0; x < pokeArray.length; x++){
-        randomSpeeds.push(Math.floor((Math.random()*5)+3))
+        randomSpeeds.push(Math.floor((Math.random()*25)+250))
      }
 
      for (var x = 4; x < pokeArray.length; x++){
-        randomSpeeds[x]= (Math.floor((Math.random()*7)+3))
+        randomSpeeds[x]= (Math.floor((Math.random()*50)+270))
      }
 
      for (var x = 10; x < pokeArray.length; x++){
-        randomSpeeds[x]= (Math.floor((Math.random()*9)+3))
+        randomSpeeds[x]= (Math.floor((Math.random()*75)+370))
      }
 
 
-     this.time.addEvent({ delay: 1000,
-                          callback: onEvent,
-                          callbackScope: this,
-                          loop: true });
+
+
+
+
 
 }
 
 function col(ball, creature){
-  console.log("Remains in the PokeDex!");
-  creature.destroy();
+  score++;
+  creature.x = -10000;
+  scoreText.setText(''+score+'/807 will return', { fontFamily: '"Press Start 2P"', stroke:"#000000", strokeThickness:2 });
+
+//  if (score == 5){
+  //  var congrats = this.add.text(width/2, height/2, "Dynamax Unlocked!", { fontFamily: '"Press Start 2P"' }).setOrigin(.5)
+  //  ball.setScale(1)
+//  }
+
+  if (score == 8){
+    //var congrats = this.add.text(width/2, height/2, "Dynamax Unlocked!", { fontFamily: '"Press Start 2P"' }).setOrigin(.5)
+    ball.setScale(.055)
+  }
+
+
+
+
 }
 
 function onEvent(){
-  this.physics.moveTo(pokeArray[0],xPosLane1,height+30, 400)
+
+  if ((currentMon + 2) < pokeArray.length){
+
+    if ((currentMon > 8)){
+
+      var randLaneFinale = Math.floor((Math.random()*4)+1);
+      var randLaneFinale2 = Math.floor((Math.random()*4)+1);
+      var randLaneFinale3 = Math.floor((Math.random()*4)+1);
+
+      var XposFinale = 0;
+      var XposFinale2 = 0;
+      var XposFinale3 = 0;
+
+      if(randLaneFinale == 1){
+        XposFinale = xPosLane1;
+      }
+      else if (randLaneFinale == 2) {
+        XposFinale = xPosLane2;
+      }
+      else if  (randLaneFinale == 3){
+        XposFinale = xPosLane3+40;
+      }
+      else if  (randLaneFinale == 4){
+        XposFinale = xPosLane4+40;
+      }
+
+      if(randLaneFinale2 == 1){
+        XposFinale2 = xPosLane1-40;
+      }
+      else if (randLaneFinale2 == 2) {
+        XposFinale2 = xPosLane2+10;
+      }
+      else if  (randLaneFinale2 == 3){
+        XposFinale2 = xPosLane3-20;
+      }
+      else if  (randLaneFinale2 == 4){
+        XposFinale2 = xPosLane4+20;
+      }
+
+      if(randLaneFinale3 == 1){
+        XposFinale3 = xPosLane1-40;
+      }
+      else if (randLaneFinale3 == 2) {
+        XposFinale3 = xPosLane2;
+      }
+      else if  (randLaneFinale3 == 3){
+        XposFinale3 = xPosLane3;
+      }
+      else if (randLaneFinale3 == 4){
+        XposFinale3 = xPosLane4+15;
+      }
+
+      this.physics.moveTo(pokeArray[currentMon],XposFinale,height+50, randomSpeeds[currentMon])
+      this.physics.moveTo(pokeArray[currentMon+1],XposFinale2,height+50, randomSpeeds[currentMon+1])
+      this.physics.moveTo(pokeArray[currentMon+2],XposFinale3,height+50, randomSpeeds[currentMon+2])
+
+    } else {
+      this.physics.moveTo(pokeArray[currentMon],pokeArray[currentMon].x,height+50, randomSpeeds[currentMon])
+      this.physics.moveTo(pokeArray[currentMon+1],pokeArray[currentMon+1].x,height+50, randomSpeeds[currentMon+1])
+      this.physics.moveTo(pokeArray[currentMon+2],pokeArray[currentMon+2].x,height+50, randomSpeeds[currentMon+2])
+
+    }
+    currentMon++;
+
+  } else if (currentMon == 148){
+    currentMon++
+    this.time.addEvent({ delay: 4000,
+                         callback: secondary,
+                         callbackScope: this,
+                         loop: false
+                       });
+  }
+
+}
+
+function secondary(){
+
+   ending = this.add.text(width/2, height - (height*.75), "So here's the deal", { fontFamily: '"Press Start 2P"', stroke:"#000000", strokeThickness:2 }).setOrigin(.5)
+
+  this.time.addEvent({ delay: 1500,
+                       callback: tertiary,
+                       callbackScope: this,
+                       loop: false
+                     });
+}
+
+function tertiary(){
+   ending2 = this.add.text((width/2)+20, height - (height*.75) + 20, "(boy, how do I put this)", { fontFamily: '"Press Start 2P"', fontSize: 11, stroke:"#000000", strokeThickness:2 }).setOrigin(.5)
+
+  this.time.addEvent({ delay: 1250,
+                       callback: four,
+                       callbackScope: this,
+                       loop: false
+                     });
+}
+
+function four(){
+  ending.destroy();
+  ending2.destroy();
+
+   ending3 = this.add.text((width/2)-40, height - (height*.75) + 20, "WE", { fontFamily: '"Press Start 2P"', fontSize: 46, stroke:"#000000", strokeThickness:2 }).setOrigin(.5)
+
+
+  this.time.addEvent({ delay: 300,
+                       callback: five,
+                       callbackScope: this,
+                       loop: false
+                     });
+
+}
+
+function five(){
+
+   ending4 = this.add.text((width/2), height - (height*.75) + 70, "RAN", { fontFamily: '"Press Start 2P"', fontSize: 46, stroke:"#000000", strokeThickness:2 }).setOrigin(.5)
+
+
+    this.time.addEvent({ delay: 300,
+                         callback: six,
+                         callbackScope: this,
+                         loop: false
+                       });
+}
+
+function six(){
+
+   ending5 = this.add.text((width/2)+40, height - (height*.75) + 120, "OUT", { fontFamily: '"Press Start 2P"', fontSize: 46, stroke:"#000000", strokeThickness:2 }).setOrigin(.5)
+
+
+  this.time.addEvent({ delay: 1000,
+                       callback: seven,
+                       callbackScope: this,
+                       loop: false
+                     });
+
+}
+
+function seven(){
+
+  ending6 = this.add.text((width/2), height - (height*.75) + 160, "of time and resources to\nimplement the other Pokemon", { fontFamily: '"Press Start 2P"', fontSize: 11, stroke:"#000000", strokeThickness:2, align:"center"}).setOrigin(.5)
+
+  this.time.addEvent({ delay: 3000,
+                       callback: eight,
+                       callbackScope: this,
+                       loop: false
+                     });
+
+}
+
+function eight() {
+  ending7 = this.add.text((width/2), height - (height*.75) + 185, "Sorry...", { fontFamily: '"Press Start 2P"', fontSize: 11, stroke:"#000000", strokeThickness:2, align:"center"}).setOrigin(.5)
+
+  this.time.addEvent({ delay: 7000,
+                       callback: nine,
+                       callbackScope: this,
+                       loop: false
+                     });
+
+}
+
+function nine() {
+
+//  scoreText.destroy();
+//  score--;
+//  scoreText = this.add.text(10, 10, score+'/807 remain', { fontFamily: '"Press Start 2P"' })
+ending3.destroy()
+ending4.destroy()
+ending5.destroy()
+ending6.destroy()
+  ending7.destroy()
+   ending8 = this.add.text((width/2), height/2 - 30, "What are you\nlingering here for?", { fontFamily: '"Press Start 2P"', fontSize: 11, stroke:"#000000", strokeThickness:2, align:"center"}).setOrigin(.5)
+
+  this.time.addEvent({ delay: 5000,
+                       callback: ten,
+                       callbackScope: this,
+                       loop: false
+                     });
+
+}
+
+function ten(){
+ending8.destroy()
+   ending9 = this.add.text((width/2), (height/2) - 30, "Shoo, off with you.\nGame's over. Too hard\n to code the rest of 'em.", { fontFamily: '"Press Start 2P"', fontSize: 11, stroke:"#000000", strokeThickness:2, align:"center"}).setOrigin(.5)
+
+  this.time.addEvent({ delay: 7000,
+                       callback: eleven,
+                       callbackScope: this,
+                       loop: false
+                     });
+}
+
+function eleven(){
+   ending9.destroy()
+   ending10 = this.add.text((width/2), height/2 - 30, "Close this tab in 10 seconds\nor I'll do something terrible", { fontFamily: '"Press Start 2P"', fontSize: 11, stroke:"#000000", strokeThickness:2, align:"center"}).setOrigin(.5)
+
+  this.time.addEvent({ delay: 10000,
+                       callback: twelve,
+                       callbackScope: this,
+                       loop: false
+                     });
+}
+
+function twelve(){
+  ending10.destroy()
+  ending11 = this.add.text((width/2), height/2 - 30, "That's it, pal.\nCheck your upper left.", { fontFamily: '"Press Start 2P"', fontSize: 11, stroke:"#000000", strokeThickness:2, align:"center"}).setOrigin(.5)
+
+  scoreText.destroy();
+  score = 0;
+  scoreText = this.add.text(10, 10, score+'/807 remain', { fontFamily: '"Press Start 2P"', strokeThickness:2, align:"center", stroke:"#000000" })
+
+  this.time.addEvent({ delay: 5000,
+                       callback: thirteen,
+                       callbackScope: this,
+                       loop: false
+                     });
+}
+
+function thirteen(){
+
+  ending11.destroy()
+  ending12 = this.add.text((width/2), height/2 - 30, "No National Dex Pkmn\nin Sword & Shield.\n ZIP. ZILCH. ZIPPO.\nAnd it's all your fault.", { fontFamily: '"Press Start 2P"', fontSize: 11, stroke:"#000000", strokeThickness:2, align:"center"}).setOrigin(.5)
+
+  this.time.addEvent({ delay: 9000,
+                       callback: fourteen,
+                       callbackScope: this,
+                       loop: false
+                     });
+
+}
+
+function fourteen(){
+  ending12.destroy()
+  scoreText.destroy();
+  score = 0;
+  scoreText = this.add.text(10, 10, '807/807 remain', { fontFamily: '"Press Start 2P"', strokeThickness:2, align:"center", stroke:"#000000" })
+  ending13 = this.add.text((width/2), height/2 - 30, "I'm just messing with ya.\nThanks for playing.\n#BringBackNationalDex", { fontFamily: '"Press Start 2P"', fontSize: 11, stroke:"#000000", strokeThickness:2, align:"center"}).setOrigin(.5)
+  grassSpeed = 0;
+  ball.destroy();
 }
 
 
 function update (time, delta)
 {
 
-/*  if ((currentMon + 6) < pokeArray.length){
+  if ((cursors.right.isDown || cursors.left.isDown || aKey.isDown || dKey.isDown) && begun == false) {
 
-
-//  pokeArray[currentMon].y += randomSpeeds[currentMon]
-//  pokeArray[currentMon+1].y += randomSpeeds[currentMon+1]
-//  pokeArray[currentMon+2].y += randomSpeeds[currentMon+2]
-//  pokeArray[currentMon+3].y += randomSpeeds[currentMon+3]
-//  pokeArray[currentMon+4].y += randomSpeeds[currentMon+4]
-  pokeArray[currentMon+5].y += randomSpeeds[currentMon+5]
-  pokeArray[currentMon+6].y += randomSpeeds[currentMon+6]
-  pokeArray[currentMon+7].y += randomSpeeds[currentMon+7]
-
-  if (time > tick + 1000 && pokeArray[currentMon].y > height + 50) {
-    tick = time;
-
-    if (currentMon < pokeArray.length - 1){
-      currentMon++;
-    }
-
+    begun = true
+    this.time.addEvent({ delay: 250,
+                         callback: onEvent,
+                         callbackScope: this,
+                         loop: true
+                       });
   }
 
-}
-*/
+
 
 
   var grassSpeed = 1.2;
@@ -269,12 +519,12 @@ function update (time, delta)
     grassy.y = -494;
   }
 
-  if (cursors.left.isDown && (ball.x >22)) {
-    ball.x -= 7;
+  if ((cursors.left.isDown && (ball.x >10)) || ((aKey.isDown && (ball.x >10))) ) {
+    ball.x -= 4;
   }
 
-  if (cursors.right.isDown && (ball.x < width-21)) {
-    ball.x += 7;
+  if ((cursors.right.isDown && (ball.x < width-10)) || (dKey.isDown && (ball.x < width-10)) ) {
+    ball.x += 4;
   }
 
 

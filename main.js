@@ -425,9 +425,9 @@ ending6.destroy()
 
 function ten(){
 ending8.destroy()
-   ending9 = this.add.text((width/2), (height/2) - 30, "Shoo, off with you.\nGame's over. You got Kanto.\nToo hard to code the rest of 'em.\nIt's just one kid at a desk here.", { fontFamily: '"Press Start 2P"', fontSize: 11, stroke:"#000000", strokeThickness:2, align:"center"}).setOrigin(.5)
+   ending9 = this.add.text((width/2), (height/2) - 30, "Shoo, off with you.\nGame's over.\nThis simulation's just got Kanto.\nToo hard to code the rest of 'em.\nIt's just one kid at a desk here.", { fontFamily: '"Press Start 2P"', fontSize: 11, stroke:"#000000", strokeThickness:2, align:"center"}).setOrigin(.5)
 
-  this.time.addEvent({ delay: 7000,
+  this.time.addEvent({ delay: 10000,
                        callback: eleven,
                        callbackScope: this,
                        loop: false

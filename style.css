@@ -18,7 +18,6 @@ body {
 
 
 .invisiText {
-  display: none;
   position:absolute;
   opacity:0;
   cursor: default;
@@ -50,7 +49,7 @@ body {
 }
 
 .instro {
-  font-family: 'Source Sans Pro';
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 1.1rem;
   padding-top:10px;
   color:white;

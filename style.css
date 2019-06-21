@@ -5,6 +5,8 @@ body {
   display:flex;
   justify-content: center;
   align-items: center;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 
@@ -13,4 +15,5 @@ body {
   opacity:0;
   cursor: default;
   user-select: none;
+  top:-1000px;
 }

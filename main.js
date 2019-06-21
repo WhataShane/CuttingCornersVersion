@@ -545,3 +545,20 @@ function update (time, delta)
 
 
 }
+
+$(document).on('click', 'canvas', function() {
+    $('.log').fadeOut()
+})
+
+$(document).on('touchstart', 'canvas', function() {
+  console.log('yes')
+    $('.log').fadeOut()
+})
+
+
+$(window).keypress(function(e) {
+    console.log('yes')
+  if (e.keyCode == 0 || e.keyCode == 32) {
+    $('.log').fadeOut()
+  }
+});

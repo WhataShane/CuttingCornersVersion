@@ -384,11 +384,22 @@ function seven(){
 
   ending6 = this.add.text((width/2), height - (height*.75) + 160, "of time and resources to\nimplement the other Pokemon", { fontFamily: '"Press Start 2P"', fontSize: 11, stroke:"#000000", strokeThickness:2, align:"center"}).setOrigin(.5)
 
-  this.time.addEvent({ delay: 3000,
-                       callback: eight,
-                       callbackScope: this,
-                       loop: false
-                     });
+  if (score != 0){
+    this.time.addEvent({ delay: 3000,
+                         callback: eight,
+                         callbackScope: this,
+                         loop: false
+                       });
+  } else {
+    this.time.addEvent({ delay: 3000,
+                         callback: branch,
+                         callbackScope: this,
+                         loop: false
+                       });
+
+  }
+
+
 
 }
 
@@ -480,6 +491,15 @@ function fourteen(){
   scoreText = this.add.text(10, 10, '807/807 remain', { fontFamily: '"Press Start 2P"', strokeThickness:2, align:"center", stroke:"#000000" })
   ending13 = this.add.text((width/2), height/2 - 30, "I'm just messing with ya.\nThanks for playing.\n#BringBackNationalDex", { fontFamily: '"Press Start 2P"', fontSize: 11, stroke:"#000000", strokeThickness:2, align:"center"}).setOrigin(.5)
   grassSpeed = 0;
+  ball.destroy();
+}
+
+function branch(){
+  ending3.destroy()
+  ending4.destroy()
+  ending5.destroy()
+  ending6.destroy()
+  branch = this.add.text((width/2), height/2 - 30, "But that doesn't concern you,\n now does it, you MONSTER! ", { fontFamily: '"Press Start 2P"', fontSize: 11, stroke:"#000000", strokeThickness:2, align:"center"}).setOrigin(.5)
   ball.destroy();
 }
 

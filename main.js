@@ -197,7 +197,7 @@ function create ()
 
 
 
-     scoreText = this.add.text(10, 10, score+'/807 will return', { fontFamily: '"Press Start 2P"', stroke:"#000000", strokeThickness:2 })
+     scoreText = this.add.text(10, 10, score+'/809 will return', { fontFamily: '"Press Start 2P"', stroke:"#000000", strokeThickness:2 })
 
      for (var monster = 0; monster < pokeArray.length; monster++){
             this.physics.add.overlap(ball, pokeArray[monster], col, function(){return true}, this);
@@ -226,7 +226,7 @@ function create ()
 function col(ball, creature){
   score++;
   creature.x = -10000;
-  scoreText.setText(''+score+'/807 will return', { fontFamily: '"Press Start 2P"', stroke:"#000000", strokeThickness:2 });
+  scoreText.setText(''+score+'/809 will return', { fontFamily: '"Press Start 2P"', stroke:"#000000", strokeThickness:2 });
 
 //  if (score == 5){
   //  var congrats = this.add.text(width/2, height/2, "Dynamax Unlocked!", { fontFamily: '"Press Start 2P"' }).setOrigin(.5)
@@ -418,7 +418,7 @@ function nine() {
 
 //  scoreText.destroy();
 //  score--;
-//  scoreText = this.add.text(10, 10, score+'/807 remain', { fontFamily: '"Press Start 2P"' })
+//  scoreText = this.add.text(10, 10, score+'/809 remain', { fontFamily: '"Press Start 2P"' })
 ending3.destroy()
 ending4.destroy()
 ending5.destroy()
@@ -462,7 +462,7 @@ function twelve(){
 
   scoreText.destroy();
   score = 0;
-  scoreText = this.add.text(10, 10, score+'/807 remain', { fontFamily: '"Press Start 2P"', strokeThickness:2, align:"center", stroke:"#000000" })
+  scoreText = this.add.text(10, 10, score+'/809 remain', { fontFamily: '"Press Start 2P"', strokeThickness:2, align:"center", stroke:"#000000" })
 
   this.time.addEvent({ delay: 5000,
                        callback: thirteen,
@@ -488,7 +488,7 @@ function fourteen(){
   ending12.destroy()
   scoreText.destroy();
   score = 0;
-  scoreText = this.add.text(10, 10, '807/807 remain', { fontFamily: '"Press Start 2P"', strokeThickness:2, align:"center", stroke:"#000000" })
+  scoreText = this.add.text(10, 10, '809/809 remain', { fontFamily: '"Press Start 2P"', strokeThickness:2, align:"center", stroke:"#000000" })
   ending13 = this.add.text((width/2), height/2 - 30, "I'm just messing with ya.\nThanks for playing.\n#BringBackNationalDex", { fontFamily: '"Press Start 2P"', fontSize: 11, stroke:"#000000", strokeThickness:2, align:"center"}).setOrigin(.5)
   grassSpeed = 0;
   ball.destroy();

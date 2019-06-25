@@ -1,5 +1,5 @@
 body {
-  background: url('https://cdn.vox-cdn.com/thumbor/lZIZFm2p0ZrCoG312XEf5Odi2IA=/312x0:1746x956/920x613/filters:focal(312x0:1746x956):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/37251612/pokemon-list.0.0.png') no-repeat center center fixed;
+  background: url('images/monsR/here.png') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -25,7 +25,6 @@ h1 {
   text-align: center;
   margin: 0 auto;
   text-decoration: none;
-  color: #fff;
   padding-top: 40px;
   font-weight: 400;
 }
@@ -61,31 +60,25 @@ img {
 }
 
 .button {
-
+  border-radius: 5px;
+  border: 3px solid black;;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   width: 320px;
   height: 50px;
-
+  font-size:1.7em;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  color: #6699ff;
+  color: white;
   text-decoration: none;
-  -webkit-transition: color 1000ms linear;
-  transition: color 1000ms linear;
   margin-bottom:10px;
-  background-color: color:crimson;
   background-color: #880E4F;
 
-}
-
-.button:hover {
-  color: black;
 }
 
 @media (min-width:670px) {

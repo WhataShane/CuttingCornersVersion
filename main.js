@@ -17,6 +17,7 @@ var score = 0
 var scoreText
 var begun = false
 var faded = false
+var pKeyCount = 0
 
 
 var lane = width / 4;
@@ -91,6 +92,7 @@ function create ()
   this.input.addPointer(3);
   cursors = this.input.keyboard.createCursorKeys();
   aKey = this.input.keyboard.addKey('A');
+  pKey = this.input.keyboard.addKey('P');
   dKey = this.input.keyboard.addKey('D');
   this.cameras.main.backgroundColor.setTo(0, 233, 75)
 
@@ -507,6 +509,10 @@ function branch(){
 function update (time, delta)
 {
 
+  if (pKey.isDown){
+    pKeyCount++;
+  }
+
   if ((cursors.right.isDown || cursors.left.isDown || aKey.isDown || dKey.isDown || this.input.activePointer.isDown) && begun == false) {
 
     begun = true
@@ -514,11 +520,22 @@ function update (time, delta)
       $('.log').fadeOut()
       faded = true
     }
-    this.time.addEvent({ delay: 250,
-                         callback: onEvent,
-                         callbackScope: this,
-                         loop: true
-                       });
+
+
+    if (pKeyCount == 0) {
+      this.time.addEvent({ delay: 250,
+                           callback: onEvent,
+                           callbackScope: this,
+                           loop: true
+                         });
+    } else {
+      this.time.addEvent({ delay: 0,
+                           callback: onEvent,
+                           callbackScope: this,
+                           loop: true
+                         });
+    }
+
   }
 
 
